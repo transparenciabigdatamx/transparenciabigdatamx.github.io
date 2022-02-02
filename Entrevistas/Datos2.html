@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>DATOS2</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <meta charset="utf-8">
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/mx/mx-all.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="highcharts-3d.js"></script>
+    <script src="exporting.js"></script>
+    <script src="export-data.js"></script>
+    <script src="accessibility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/mx/mx-all.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/styles/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="../assets/styles/stylesinvestigacion.css">
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.8.0.min.js"></script>
+    <link rel="stylesheet" href="../assets/styles/stylesinvestigacion.css">
+    <link rel="stylesheet" href="../assets/styles/stylesentrevistas2.css">
+
+</head>
+
+<body style="background-color: black;">
+
+    <div class="header">
+
+        <div class="container">
+
+            <a href="/" class="header-logo">
+                <!-- <img src="../assets/images/lseFull.svg" class="header-logo-normal" alt="MZ" />
+                <img src="../assets/images/lseFull.svg" class="header-logo-inverso" alt="MZ" />-->
+            </a>
+
+            <button class="hamburger hamburger--collapse header-nav-icon" type="button" aria-label="Menu" aria-controls="navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+            <div class="nav" id="navigation">
+                <a href="../index.html" class="text-headline"> Inicio </a>
+                <a href="../Datos/index.html" class="text-headline">
+              Conoce los datos </a>
+                <a href="../Entrevistas/index.html" class="text-headline"> Transparencia y sociedad civil </a>
+                <a href="../Equipo/index.html" class="text-headline">
+                Equipo de Investigación
+              </a>
+                <a href="../Contacto/index.html" class="text-headline"> Contacto </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <div class="fotografia-hero">
+            <div class="proyecto ">
+                <img src="../assets/images/datos2.png" alt="">
+            </div>
+        </div>
+        <section class="hero__main container">
+            <h3 class="hero__title" style="font-size:60px;">INTRODUCCIÓN.</h3>
+
+
+            <p class="parrafo">Esta sección está destinada a que los usuarios interesados en la investigación "Big Data y Acceso a la información en México consulten las métricas generadas a partir del análisis de texto de las solicitudes de acceso a la información y sus
+                respuestas. Los gráficos y los datos asociados a cada tema pueden ser descargados dando clic en los iconos.</p>
+            <p class="parrafo">También es posible saltar a la sección de interés dando clic en los links que se muestran debajo</p>
+            <br>
+            <!-- <p class="PARRAFO"> Selecciona el tema de tu interés </p>
+            <a href="#" class="hero__cta">  
+                Selecciona el tema de tu interés:
+              </a>
+
+            <div class="menusecciones">
+
+                <a class="opciones" href="#Las_solicitudes">Análisis de la demanda de información</a>
+                <a class="opciones" href="#Distribución_geo">Distribución geográfica de la demanda de información</a>
+                <a class="opciones" href="#Métricas sobre las características de las solicitudes">Métricas sobre las características de las solicitudes</a>
+                <a class="opciones" href="#Características_respuestas">Características de las respuestas</a>
+            </div>-->
+        </section>
+
+
+        <main class="main">
+            <section class="card container ">
+
+            </section>
+
+            <!--SECCIÓN 1-->
+            <section class="productive2 container " id="EDUCACION " id="textsaludanimado " style="background-color: goldenrod">
+
+                <div class=" productive__texts " id=" ">
+                    <h3 class="productive2__title"> ANÁLISIS DE LA DEMANDA DE INFORMACIÓN</h3>
+
+                    <p class="productive2__paragraph"> En este apartado podrás consultar la información sobre el total de solicitudes y <br> su distribución por dependencia</p>
+                    <p class="productive2__paragraph"> La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019.</p>
+                    <p class=" productive2__paragraph"> Para ver el detalle de las 10 Dependencias con mayor cantidad de solicitudes <br>recibidas por año, da clic sobre la columna del año que te interesa.<br> La gráfica muestra un menú con distintas opciones de visualización y descarga
+                        de datos</p>
+                    <br>
+                    <a class="productive2__paragraph " href="#Menú " title="Menú ">Regresar al menú</a>
+                </div>
+            </section>
+            <!--SECCIÓN 1-->
+            <section class="productive3 container3" id="MEDIO_AMBIENTE" style="background-color: goldenrod;">
+
+                <div class="productive3__img" id="containertotalsolicitudes"></div>
+
+
+                <!--<div class="productive__texts" id="">
+
+                    <h3 class="productive__title"> ANÁLISIS DE LA DEMANDA DE INFORMACIÓN</h3>
+
+                    <p class="productive__paragraph" style="font-size: 10px;"> En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia</p>
+                    <p class="productive__paragraph" style="font-size: 10px;"> La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019.</p>
+                    <p class=" productive__paragraph " style="font-size:10px;"> Para ver el detalle de las 10 Dependencias con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa.</p>
+                    <p class=" productive__paragraph " style="font-size: 10px;">La gráfica muestra un menú con distintas opciones de visualización y descarga de datos</p>
+
+                    <br>
+                    <br>
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+    </div>-->
+            </section>
+
+            <section class="card container ">
+
+            </section>
+
+            <!--fin sección 1-->
+            <!--SECCION 2-->
+
+            <section class="productive container " id="EDUCACION " id="textsaludanimado " style="background-color: black">
+
+                <div class=" productive__texts " id=" ">
+
+                    <h3 class="productive__title "> SOLICITUDES POR DEPENDENCIA</h3>
+
+                    <p class="productive__paragraph "> La información pública en materia de educación es un tema clave para las decisiones cotidianas de padres de familia y estudiantes.</p>
+
+                    <p class="productive__paragraph ">Explora el caso de “Mejora tu escuela” y descubre cómo se pueden generar herramientas sencillas a partir de los datos existentes.</p>
+
+
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                    <!--<img src="images/icon-arrow.svg " class="productive__arrow ">
+                  </a>-->
+
+                </div>
+                <div class="productive__img" id="vizContainer1"></div>
+
+            </section>
+
+            <section class="card container ">
+
+            </section>
+            <!--SECCIÓN 1-->
+
+            <section class="productive container" id="MEDIO_AMBIENTE" style="background-color: goldenrod;">
+
+                <div class="productive__img" id="containertotalsolicitudes"></div>
+
+                <div class="productive__texts" id="">
+
+                    <h3 class="productive__title">DISTRIBUCIÓN GEOGRÁFICA DE LA DEMANDA DE INFORMACIÓN </h3>
+
+                    <p class="productive__paragraph" style="font-size: 10px;"> En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia</p>
+                    <p class="productive__paragraph" style="font-size: 10px;"> La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019.</p>
+                    <p class=" productive__paragraph " style="font-size:10px;"> Para ver el detalle de las 10 Dependencias con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa.</p>
+                    <p class=" productive__paragraph " style="font-size: 10px;">La gráfica muestra un menú con distintas opciones de visualización y descarga de datos</p>
+
+                    <br>
+                    <br>
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                </div>
+            </section>
+
+            <section class="card container ">
+
+            </section>
+
+            <!--fin sección 1-->
+            <!--SECCION 2-->
+
+            <section class="productive container " id="EDUCACION " id="textsaludanimado " style="background-color: black">
+
+                <div class=" productive__texts " id=" ">
+
+                    <h3 class="productive__title ">MÉTRICAS SOBRE LAS CARACTERÍSTICAS DE LAS SOLICITUDES</h3>
+
+                    <p class="productive__paragraph "> La información pública en materia de educación es un tema clave para las decisiones cotidianas de padres de familia y estudiantes.</p>
+
+                    <p class="productive__paragraph ">Explora el caso de “Mejora tu escuela” y descubre cómo se pueden generar herramientas sencillas a partir de los datos existentes.</p>
+
+
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                    <!--<img src="images/icon-arrow.svg " class="productive__arrow ">
+                  </a>-->
+
+                </div>
+                <div class="productive__img" id="vizContainer1"></div>
+
+            </section>
+
+            <section class="card container ">
+
+            </section>
+            <!--SECCIÓN 1-->
+
+            <section class="productive container" id="MEDIO_AMBIENTE" style="background-color: goldenrod;">
+
+                <div class="productive__img" id="containertotalsolicitudes"></div>
+
+                <div class="productive__texts" id="">
+
+                    <h3 class="productive__title"> COMPLEJIDAD</h3>
+
+                    <p class="productive__paragraph" style="font-size: 10px;"> En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia</p>
+                    <p class="productive__paragraph" style="font-size: 10px;"> La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019.</p>
+                    <p class=" productive__paragraph " style="font-size:10px;"> Para ver el detalle de las 10 Dependencias con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa.</p>
+                    <p class=" productive__paragraph " style="font-size: 10px;">La gráfica muestra un menú con distintas opciones de visualización y descarga de datos</p>
+
+                    <br>
+                    <br>
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                </div>
+            </section>
+
+            <section class="card container ">
+
+            </section>
+
+            <!--fin sección 1-->
+            <!--SECCION 2-->
+
+            <section class="productive container " id="EDUCACION " id="textsaludanimado " style="background-color: black">
+
+                <div class=" productive__texts " id=" ">
+
+                    <h3 class="productive__title "> ESPECIFICIDAD</h3>
+
+                    <p class="productive__paragraph "> La información pública en materia de educación es un tema clave para las decisiones cotidianas de padres de familia y estudiantes.</p>
+
+                    <p class="productive__paragraph ">Explora el caso de “Mejora tu escuela” y descubre cómo se pueden generar herramientas sencillas a partir de los datos existentes.</p>
+
+
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                    <!--<img src="images/icon-arrow.svg " class="productive__arrow ">
+                              </a>-->
+
+                </div>
+                <div class="productive__img" id=""></div>
+
+            </section>
+
+            <section class="card container ">
+
+            </section>
+            <!--SECCIÓN 1-->
+
+            <section class="productive container" id="MEDIO_AMBIENTE" style="background-color: goldenrod;">
+
+                <div class="productive__img" id="containertotalsolicitudes"></div>
+
+                <div class="productive__texts" id="">
+
+                    <h3 class="productive__title"> ÍNDICE COMPUESTO DE EXPERIENCIA</h3>
+
+                    <p class="productive__paragraph" style="font-size: 10px;"> En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia</p>
+                    <p class="productive__paragraph" style="font-size: 10px;"> La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019.</p>
+                    <p class=" productive__paragraph " style="font-size:10px;"> Para ver el detalle de las 10 Dependencias con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa.</p>
+                    <p class=" productive__paragraph " style="font-size: 10px;">La gráfica muestra un menú con distintas opciones de visualización y descarga de datos</p>
+
+                    <br>
+                    <br>
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                </div>
+            </section>
+
+            <section class="card container ">
+
+            </section>
+
+            <!--fin sección 1-->
+            <!--SECCION 2-->
+
+            <section class="productive container " id="EDUCACION " id="textsaludanimado " style="background-color: black">
+
+                <div class=" productive__texts " id=" ">
+
+                    <h3 class="productive__title ">CARACTERÍSTICAS DE LAS RESPUESTAS</h3>
+
+                    <p class="productive__paragraph "> La información pública en materia de educación es un tema clave para las decisiones cotidianas de padres de familia y estudiantes.</p>
+
+                    <p class="productive__paragraph ">Explora el caso de “Mejora tu escuela” y descubre cómo se pueden generar herramientas sencillas a partir de los datos existentes.</p>
+
+
+                    <a class=" " href="#Menú " title="Menú ">Ir al menú</a>
+                    <!--<img src="images/icon-arrow.svg " class="productive__arrow ">
+                              </a>-->
+
+                </div>
+                <div class="productive__img" id="vizContainer1"></div>
+
+            </section>
+
+            <section class="card container ">
+
+            </section>
+
+
+        </main>
+
+        <footer>
+            <div class=''>
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <ul>
+                            <p>&copy; Copyright 2021</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="../assets/scripts/nav.js "></script>
+        <script src="../assets/scripts/scanimation.js "></script>
+        <script src="../assets/scripts/basicScroll.min.js "></script>
+        <script src="../assets/scripts/basicScrollStart.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js "></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js "></script>
+        <script src=../assets/scripts/nav.js></script>
+        <script src=../assets/scripts/ranking.js></script>
+        <script src=../assets/scripts/dashmapas.js></script>
+        <script src=../assets/scripts/experiencia.js></script>
+        <script src=../assets/scripts/complejidad.js></script>
+        <script src=../assets/scripts/especificidad.js></script>
+        <script src=../assets/scripts/experienciacomp.js></script>
+        <script src=../assets/scripts/diashab.js></script>
+        <script src=../assets/scripts/respuestas.js></script>
+        <script src=../assets/scripts/evolucionsolicitudes.js></script>
+        <script src=../assets/scripts/containertotalsolicitudes.js></script>
+</body>
+
+</html>

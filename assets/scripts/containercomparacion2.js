@@ -26,7 +26,7 @@ Highcharts.chart('containercomparacion2', {
 
 
     subtitle: {
-        text: 'Fuente:Elaboración propia con base en datos abiertos del INAI'
+
     },
 
     yAxis: {
@@ -37,6 +37,8 @@ Highcharts.chart('containercomparacion2', {
         minorGridLineColor: "#ffff",
         tickColor: "#ffff",
         tickWidth: 1,
+        lineColor: '#e1cc4f',
+        lineWidth: 1,
         style: {
             color: '#ffff',
             fontSize: '14px',
@@ -91,7 +93,17 @@ Highcharts.chart('containercomparacion2', {
     },
 
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        backgroundColor: '#000',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
 
     plotOptions: {
@@ -108,7 +120,7 @@ Highcharts.chart('containercomparacion2', {
     },
 
     series: [{
-        name: 'Proporción de respuestas clasificadas como inexistencia',
+        name: 'Proporción de respuestas <br>clasificadas como inexistencia',
         data: [2.58,
             3.31,
             4.34,
@@ -128,7 +140,7 @@ Highcharts.chart('containercomparacion2', {
             4.03,
         ],
 
-        color: "#17503d",
+        color: "#fff",
         accessibility: {
 
         }

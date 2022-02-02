@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entrada 1s ease-in-out '
+        animacion.style.animation = 'entrada 1s ease-in-out forwards '
     }
 
 })
@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entrada 1s ease-in-out '
+        animacion.style.animation = 'entrada 1s ease-in-out forwards'
     }
 
 })
@@ -24,7 +24,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entrada 1s ease-in-out '
+        animacion.style.animation = 'entrada 1s ease-in-out forwards'
     }
 
 })
@@ -34,7 +34,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entrada 1s ease-in-out '
+        animacion.style.animation = 'entrada 1s ease-in-out forwards'
     }
 
 })
@@ -44,7 +44,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entradaizquierda 1s ease-in-out '
+        animacion.style.animation = 'entradaizquierda 1s ease-in-out forwards'
     }
 
 })
@@ -55,7 +55,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entradaderecha 1s ease-in-out '
+        animacion.style.animation = 'entradaderecha 1s ease-in-out forwards'
     }
 
 })
@@ -65,7 +65,7 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entradaizquierda 1s ease-in-out '
+        animacion.style.animation = 'entradaizquierda 1s ease-in-out forwards'
     }
 
 })
@@ -76,7 +76,17 @@ window.addEventListener('scroll', function() {
     console.log(posicionimg);
     let tamañoDePantalla = window.innerHeight / 1.5;
     if (posicionimg < tamañoDePantalla) {
-        animacion.style.animation = 'entradaderecha 1s ease-in-out '
+        animacion.style.animation = 'entradaderecha 1s ease-in-out forwards'
+    }
+
+})
+window.addEventListener('scroll', function() {
+    let animacion = document.getElementById("textoagradecimiento");
+    let posicionimg = animacion.getBoundingClientRect().top;
+    console.log(posicionimg);
+    let tamañoDePantalla = window.innerHeight / 1.5;
+    if (posicionimg < tamañoDePantalla) {
+        animacion.style.animation = 'entradaizquierda 1s ease-in-out forwards'
     }
 
 })

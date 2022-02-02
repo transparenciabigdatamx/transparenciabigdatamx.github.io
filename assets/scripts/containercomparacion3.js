@@ -3,7 +3,7 @@ var colors = Highcharts.getOptions().colors;
 Highcharts.chart('containercomparacion3', {
     chart: {
         type: 'spline',
-        backgroundColor: 'goldenrod'
+        backgroundColor: 'black'
     },
 
     legend: {
@@ -15,7 +15,7 @@ Highcharts.chart('containercomparacion3', {
 
         style: {
             fontFamily: "Arial Narrow",
-            color: '#2c666eff',
+            color: 'white',
             fontSize: '20px',
             fontWeight: 'bold',
 
@@ -46,6 +46,8 @@ Highcharts.chart('containercomparacion3', {
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
+        lineColor: '#fff',
+        lineWidth: 1,
         style: {
             color: '#fff',
             fontSize: '14px',
@@ -100,7 +102,17 @@ Highcharts.chart('containercomparacion3', {
     },
 
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        backgroundColor: '#daa520',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
 
     plotOptions: {
@@ -117,7 +129,7 @@ Highcharts.chart('containercomparacion3', {
     },
 
     series: [{
-        name: 'Proporción de "Inexistencias disfrazadas como "Entrega"',
+        name: 'Proporción de "Inexistencias<br> disfrazadas como "Entrega"',
         data: [27.39,
             37.75,
             41.31,
@@ -134,10 +146,10 @@ Highcharts.chart('containercomparacion3', {
 
         ],
 
-        color: colors[1],
+        color: "#fff",
         accessibility: {
 
-        }
+        },
 
     }],
 

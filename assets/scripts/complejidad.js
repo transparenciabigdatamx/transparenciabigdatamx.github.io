@@ -1,5 +1,5 @@
 const containerDiv4 = document.getElementById("vizContainer4");
-const url4 = 'https://public.tableau.com/views/RESUMENgraficas/Dashndicedecomplejidadvf?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url4 = 'https://public.tableau.com/views/RESUMENgraficas2/Dashndicedecomplejidadvf2?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
 const options4 = {
     hideTabs: true,
 }

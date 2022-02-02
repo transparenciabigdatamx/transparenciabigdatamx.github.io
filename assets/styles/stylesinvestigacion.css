@@ -213,11 +213,12 @@ footer p {
     max-width: 900px;
 }
 
-main {
-    margin: 0;
-    padding: 0px;
-    background-color: aliceblue;
-}
+
+/*main {
+        margin: 0;
+        padding: 0px;
+        background-color: aliceblue;
+    }*/
 
 .menusecciones {
     background: goldenrod;
@@ -237,16 +238,41 @@ main {
     font-weight: bolder;
 }
 
-.section {
-    background-color: white;
-    height: auto;
-    margin-top: 0%;
-    position: relative;
-    z-index: 1;
-}
+
+/*.section {
+        background-color: white;
+        height: auto;
+        margin-top: 0%;
+        position: relative;
+        z-index: 1;
+    }*/
 
 #Introducción {
     height: auto;
+}
+
+.section_intro {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+.section_introbody {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.introtext {
+    max-width: 700px;
+    font-size: 30px;
 }
 
 .title {
@@ -365,4 +391,280 @@ main {
 
 main {
     background-color: white;
+}
+
+.testimony {
+    background-color: #070707;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony__container {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+    width: 90%;
+}
+
+.testimony__body {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimony__body2 {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimony__body3 {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimony__body--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__body--show2 {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__body--show3 {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__body--show3 {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.testimony__texts {
+    max-width: 700px;
+    font-size: 30px;
+    color: #f3f3f3;
+}
+
+.testimony__texts2 {
+    max-width: 700px;
+    font-size: 30px;
+    color: #f3f3f3;
+}
+
+.testimony__texts3 {
+    max-width: 700px;
+    font-size: 30px;
+    color: #f3f3f3;
+}
+
+.testimony__course {
+    background-color: goldenrod;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony__arrow {
+    width: 90%;
+    cursor: pointer;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 7px;
+    background-color: black;
+    margin: 30px;
+    text-align: justify;
+}
+
+body {
+    background-color: #070707
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 5px;
+    background-color: black;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 50px;
+    color: #fff;
+    text-align: justify;
+    text-decoration: none;
+    border-top: 2px solid #EEAD33;
+    border-bottom: 2px solid #EEAD33;
+    font-size: medium;
+}
+
+.parent3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 5px;
+    margin: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.div1-3 {
+    grid-area: 1 / 1 / 2 / 2;
+    color: #f3f3f3;
+}
+
+.parent4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 5px;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.div1-2 {
+    grid-area: 1 / 2 / 1 / 2;
+    padding: 50px;
+    color: #fff;
+    text-align: justify;
+    text-decoration: none;
+    border-top: 2px solid #EEAD33;
+    border-bottom: 2px solid #EEAD33;
+    font-size: medium;
+}
+
+.div2-1 {
+    grid-area: 2 / 1 / 1 / 1;
+    padding: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.fuente {
+    font-size: x-small;
+    color: #fff;
+    margin: 60px;
+}
+
+.highcharts-grid-line {
+    stroke-width: 0;
+}
+
+.highcharts-yaxis-grid .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #d8d8d8;
+}
+
+path {
+    stroke-width: 1px;
+}
+
+.highcharts-data-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: black;
+    width: 50%;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    border: 1px solid silver;
+    padding: 0.5em;
+}
+
+.highcharts-data-table th {
+    text-align: center;
+}
+
+.highcharts-data-table td {
+    text-align: center;
+}
+
+.highcharts-data-table tr:nth-child(even),
+.highcharts-data-table thead tr {
+    background: goldenrod;
+}
+
+.highcharts-data-table tr:hover {
+    background: #CCCCCC;
+}
+
+.highcharts-data-table caption {
+    border-bottom: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffff!important;
+    text-align: center;
 }

@@ -1,0 +1,85 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Barlow', sans-serif;
+            background-color: black;
+        }
+        
+        .izquierda {
+            height: 100vh;
+            width: 30%;
+            /*background: url(../images/Picture5.jpg);
+            background-size: cover;*/
+            background-color: black;
+            display: block;
+            align-items: center;
+            display: inline-block;
+        }
+        
+        .derecha {
+            width: 70%;
+            height: 100vh;
+            top: 20%
+        }
+        
+        #division {
+            display: flex;
+        }
+        
+        #contenido {
+            width: 100%;
+            height: 100vh;
+            /*centrar cajas*/
+            margin: 2px auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        
+        .home_img {
+            width: 90%;
+            height: auto;
+            align-self: center;
+            vertical-align: middle;
+            margin-top: 100px;
+        }
+        
+        .box {
+            width: 90%;
+            height: 200px;
+            color: #fff;
+            background-color: black;
+            display: flex;
+            margin: auto;
+            float: left;
+            flex: none;
+            /*centrat contenido*/
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            /*centrar verticalmente 300px- tamaño de fuente*/
+            font-size: 15px;
+            font-weight: 400;
+            top: 30%;
+            margin-top: 50px;
+            /*animation: color 2s infinite;*/
+        }
+        
+        .text-headline {
+            padding: 50px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            text-decoration: none;
+        }
+        /* @keyframes color {
+            from {
+                background-color: goldenrod;
+            }
+            to {
+                background-color: grey;
+            }
+        }*/

@@ -75,64 +75,85 @@ Highcharts.chart('containertotalsolicitudes', {
     },
     tooltip: {
         headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b>solicitudes<br/>'
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b>solicitudes<br/>',
+        backgroundColor: '#000',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
     series: [{
         name: "Dependencias top 10",
-        colorByPoint: true,
+        colorByPoint: false,
         data: [{
             name: "2003",
             y: 22573,
-            color: '#88e',
+            color: '#daa520',
             drilldown: "2003"
         }, {
             name: "2004",
             y: 34216,
-            color: 'red',
+            color: '#daa520',
             drilldown: "2004"
         }, {
             name: "2005",
             y: 43391,
+            color: '#daa520',
             drilldown: "2005"
         }, {
             name: "2006",
             y: 50757,
+            color: '#daa520',
             drilldown: "2006"
         }, {
             name: "2007",
             y: 78364,
+            color: '#daa520',
             drilldown: "2007"
         }, {
             name: "2008",
             y: 85604,
+            color: '#daa520',
             drilldown: "2008"
         }, {
             name: "2009",
             y: 97486,
+            color: '#daa520',
             drilldown: "2009"
         }, {
             name: "2010",
             y: 99713,
+            color: '#daa520',
             drilldown: "2010"
         }, {
             name: "2011",
             y: 96073,
+            color: '#daa520',
             drilldown: "2011"
         }, {
             name: "2012",
             y: 94600,
+            color: '#daa520',
             drilldown: "2012"
         }, {
             name: "2013",
             y: 109445,
+            color: '#daa520',
             drilldown: "2013"
         }, {
             name: "2014",
             y: 116078,
+            color: '#daa520',
             drilldown: "2014"
         }, {
             name: "2015",
             y: 83452,
+            color: '#daa520',
             drilldown: "2015"
         }]
     }],
@@ -152,7 +173,17 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["CFE", 506],
                     ["PGR", 505]
 
-                ]
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
             },
             {
                 name: "2004",
@@ -170,7 +201,17 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["SALUD", 817],
 
 
-                ]
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [0, 'rgb(59, 82, 139)'],
+                        [100, 'rgb(33, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
             },
             {
                 name: "2005",
@@ -189,8 +230,19 @@ Highcharts.chart('containertotalsolicitudes', {
 
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2006",
                 id: "2006",
                 data: [
@@ -204,8 +256,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["SEGOB", 933],
                     ["SCT", 907],
                     ["PGR", 1016]
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2007",
                 id: "2007",
                 data: [
@@ -223,8 +286,19 @@ Highcharts.chart('containertotalsolicitudes', {
 
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2008",
                 id: "2008",
                 data: [
@@ -239,7 +313,17 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["SEGOB", 933],
                     ["PGR", 1016],
 
-                ]
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
             },
             {
                 name: "2009",
@@ -257,8 +341,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["PGR", 817],
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2010",
                 id: "2010",
                 data: [
@@ -274,8 +369,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["CONAGUA", 817],
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2011",
                 id: "2011",
                 data: [
@@ -291,8 +397,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["SEGOB", 817],
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2012",
                 id: "2012",
                 data: [
@@ -307,8 +424,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["CFE", 931],
                     ["PGR", 907],
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2013",
                 id: "2013",
                 data: [
@@ -324,8 +452,19 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["FUNCIÓN PÚBLICA", 817],
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(253, 231, 37)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2014",
                 id: "2014",
                 data: [
@@ -342,8 +481,19 @@ Highcharts.chart('containertotalsolicitudes', {
 
 
 
-                ]
-            }, {
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
                 name: "2015",
                 id: "2015",
                 data: [
@@ -359,7 +509,17 @@ Highcharts.chart('containertotalsolicitudes', {
                     ["FUNCIÓN PÚBLICA", 817],
 
 
-                ]
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
             }
         ]
     }

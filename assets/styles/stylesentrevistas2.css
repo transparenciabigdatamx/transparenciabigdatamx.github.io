@@ -1,0 +1,396 @@
+                            /* Variables */
+                            
+                            @import url("../styles/variables/v-color.css");
+                            @import url("../styles/variables/v-typography.css");
+                            @import url("../styles/variables/v-spacer.css");
+                            @import url("../styles/variables/v-grid.css");
+                            @import url("../styles/variables/v-zindex.css");
+                            /* Base */
+                            
+                            @import url("../styles/base/reset.css");
+                            @import url("../styles/base/typography.css");
+                            @import url("../styles/base/grid.css");
+                            @import url("../styles/base/grid-cols.css");
+                            /* Libraries */
+                            
+                            @import url("../styles/libraries/animate.css");
+                            @import url("../styles/libraries/hamburgers.css");
+                            /* Layout */
+                            
+                            @import url("../styles/layout/header.css");
+                            @import url("../styles/layout/nav.css");
+                            @import url("../styles/layout/content.css");
+                            @import url("../styles/layout/footer.css");
+                            /* Blocks */
+                            
+                            @import url("../styles/blocks/proyecto.css");
+                            /* Pages */
+                            /* Pages */
+                            
+                            @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+                            @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+                            @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+                            @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+                            @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+                            @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+                            @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+                            @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+                            *,
+                             ::after,
+                             ::before {
+                                margin: 0;
+                                box-sizing: border-box;
+                            }
+                            
+                             :root {
+                                --blue-intro: hsl(217, 28%, 15%);
+                                --blue-main: hsl(218, 28%, 13%);
+                                --blue-footer: hsl(216, 53%, 9%);
+                                --blue-testimonials: rgb(62, 66, 66);
+                                --white: hsl(0, 0%, 100%);
+                                --cyan-gradient: hsl(176, 68%, 64%);
+                                --blue-gradient: hsl(198, 60%, 50%);
+                                --light-red: hsl(0, 100%, 63%);
+                                --gradient: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
+                                --body-font: 'Barlow', sans-serif, --heading-font: 'Barlow', sans-serif;
+                                --heading-size: 6 rem;
+                                --padding-container: 60px 0;
+                            }
+                            
+                            .hero {
+                                background-color: var(--blue-intro);
+                                position: relative;
+                            }
+                            
+                            .container {
+                                width: 90%;
+                                max-width: 1200px;
+                                margin: 0 auto;
+                                padding: 30px 0;
+                                overflow: hidden;
+                                display: grid;
+                            }
+                            
+                            .container2 {
+                                width: 90%;
+                                max-width: 1200px;
+                                margin: 0 auto;
+                                padding: 10px 0;
+                                overflow: hidden;
+                                display: grid;
+                            }
+                            
+                            .container3 {
+                                width: 90%;
+                                max-width: 1200px;
+                                margin: 0 auto;
+                                padding: 10px 0;
+                                overflow: hidden;
+                                display: flex;
+                            }
+                            
+                            .hero__main {
+                                color: #fff;
+                                display: grid;
+                                gap: 1.5em;
+                                text-align: center;
+                                position: relative;
+                            }
+                            
+                            .hero__img {
+                                width: 100%;
+                                display: block;
+                                margin: 0 auto;
+                                max-width: 600px;
+                            }
+                            
+                            .hero__title {
+                                margin-top: 1.5em;
+                            }
+                            
+                            .hero__title2 {
+                                margin-top: 1.5em;
+                            }
+                            
+                            .hero__paragraph {
+                                line-height: 1.5;
+                                font-size: 3rem;
+                                /* margin: .5em 0; */
+                            }
+                            
+                            .hero__cta {
+                                width: 250px;
+                                padding: 1em 0;
+                                border-radius: 2em;
+                                background-image: var(--gradient);
+                                color: #fff;
+                                font-weight: bold;
+                                place-self: center;
+                                font-family: var(--heading-font);
+                                text-decoration: none;
+                            }
+                            
+                            .about {
+                                color: #fff;
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .about__img {
+                                width: 150px;
+                                height: 150px;
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            
+                            .about__title {
+                                margin-top: 1.4em;
+                                margin-bottom: 1em;
+                                font-family: var(--heading-font);
+                                font-size: 2rem;
+                            }
+                            
+                            .productive {
+                                color: #fff;
+                                gap: 3em;
+                                display: flex;
+                                flex-direction: unset;
+                                height: auto;
+                            }
+                            
+                            .productive2 {
+                                color: #fff;
+                                gap: 3em;
+                                display: flex;
+                                flex-direction: column-reverse;
+                            }
+                            
+                            .productive3 {
+                                color: #fff;
+                                gap: 3em;
+                                display: block;
+                            }
+                            
+                            .productive__img {
+                                display: block;
+                                height: 500px;
+                                width: 500px;
+                                margin: 0 auto;
+                                max-width: 600px;
+                            }
+                            
+                            .productive3__img {
+                                margin: 0, auto;
+                                width: 1000px;
+                                padding-right: 5px;
+                                padding-left: 250px;
+                                place-self: center;
+                            }
+                            
+                            .productive__title {
+                                font-family: var(--heading-font);
+                                margin-bottom: .7em;
+                                font-size: 40px;
+                                vertical-align: top;
+                            }
+                            
+                            .productive2__title {
+                                font-family: var(--heading-font);
+                                margin-bottom: .7em;
+                                padding-left: 30px;
+                                vertical-align: top;
+                                text-align: left;
+                            }
+                            
+                            .productive__paragraph {
+                                line-height: 1.7;
+                                margin-bottom: 1em;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                place-self: center;
+                                vertical-align: top;
+                            }
+                            
+                            .productive2__paragraph {
+                                line-height: 1;
+                                font-family: "Barlow", sans-serif;
+                                margin-bottom: 1em;
+                                text-align: left;
+                                vertical-align: top;
+                                padding-left: 30px;
+                                font-size: 20px;
+                                justify-content: right;
+                            }
+                            
+                            .productive__cta {
+                                display: inline-block;
+                                color: var(--cyan-gradient);
+                                line-height: 2.5;
+                                text-decoration: none;
+                            }
+                            
+                            .productive__arrow {
+                                margin-left: .3em;
+                                vertical-align: middle;
+                            }
+                            
+                            .card {
+                                color: #fff;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2.5em;
+                            }
+                            
+                            .card__item {
+                                background-color: var(--blue-testimonials);
+                                width: 90%;
+                                margin: 0 auto;
+                                padding: 1.5em 1em;
+                                border-radius: 4px;
+                                box-shadow: 1px 1px 10px -5px rgb(255, 255, 255, .5);
+                                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            }
+                            
+                            .card__item--first {
+                                position: relative;
+                            }
+                            
+                            .card__item--first::before {
+                                content: "";
+                                position: absolute;
+                                top: -30px;
+                                left: 0;
+                                background-image: url("../images/bg-quotes.png");
+                                width: 30px;
+                                height: 40px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                z-index: -1;
+                            }
+                            
+                            .card__profile {
+                                margin-top: 1.5em;
+                                display: flex;
+                                align-items: center;
+                                gap: .5em;
+                            }
+                            
+                            .card__picture {
+                                width: 100px;
+                                height: 100px;
+                            }
+                            
+                            .card__img {
+                                width: 100%;
+                                border-radius: 50%;
+                                object-fit: cover;
+                                width: 100px;
+                                height: 100px;
+                            }
+                            
+                            .card__name {
+                                font-size: 1.2rem;
+                                font-family: var(--heading-font);
+                            }
+                            
+                            .card__job {
+                                color: #aaa9a9;
+                            }
+                            
+                            .join__container {
+                                background-color: var(--blue-testimonials);
+                                border-radius: 8px;
+                                padding-left: 1.5em;
+                                padding-right: 1.5em;
+                                text-align: center;
+                            }
+                            
+                            .join__title {
+                                font-family: var(--heading-font);
+                                margin-bottom: 1em;
+                            }
+                            
+                            .join__paragraph {
+                                line-height: 1.5;
+                                margin-bottom: 1.5em;
+                            }
+                            
+                            .title {
+                                vertical-align: top;
+                                text-align: left;
+                                line-height: 50px;
+                                text-transform: capitalize;
+                                padding-left: 20px;
+                            }
+                            
+                            @media (min-width:740px) {
+                                .hero__title {
+                                    font-size: 2.5rem;
+                                }
+                                .hero__wave::before {
+                                    background-image: url("../images/bg-curvy-desktop.svg");
+                                }
+                                .about {
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: space-evenly;
+                                }
+                                .about__item {
+                                    width: 40%;
+                                }
+                                .productive {
+                                    grid-template-columns: 1fr 1fr;
+                                    align-items: center;
+                                }
+                                .productive__title {
+                                    font-size: 2rem;
+                                    margin-bottom: .6em;
+                                }
+                                .card {
+                                    flex-direction: row;
+                                }
+                                .join__container {
+                                    width: 70%;
+                                }
+                                .join__title {
+                                    font-size: 2rem;
+                                    margin-bottom: .7em;
+                                }
+                                .join__form {
+                                    grid-template-columns: 1fr max-content;
+                                }
+                            }
+                            
+                            @keyframes entrada {
+                                from {
+                                    transform: translateY(-500px);
+                                    opacity: 0;
+                                }
+                                to {
+                                    transform: translateY(0);
+                                    opacity: 1;
+                                }
+                            }
+                            
+                            @keyframes entradaderecha {
+                                from {
+                                    transform: translateX(500px);
+                                    opacity: 0;
+                                }
+                                to {
+                                    transform: translateX(0);
+                                    opacity: 1;
+                                }
+                            }
+                            
+                            @keyframes entradaizquierda {
+                                from {
+                                    transform: translateX(-500px);
+                                    opacity: 0;
+                                }
+                                to {
+                                    transform: translateX(0);
+                                    opacity: 1;
+                                }
+                            }

@@ -1,7 +1,9 @@
 const containerDiv8 = document.getElementById("vizContainer8");
-const url8 = 'https://public.tableau.com/views/RESUMENgraficas/DashHistoricoVF?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url8 = 'https://public.tableau.com/views/RESUMENgraficas2/DashHistoricoVF2?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+
 const options8 = {
     hideTabs: true,
+
 }
 
 function initViz8() {

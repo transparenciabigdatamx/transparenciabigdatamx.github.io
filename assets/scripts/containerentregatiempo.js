@@ -14,7 +14,7 @@ Highcharts.chart('containerentregatiempo', {
 
         style: {
             fontFamily: "Arial Narrow",
-            color: '#2c666eff',
+            color: '#ffff',
             fontSize: '20px',
             fontWeight: 'bold',
 
@@ -46,6 +46,8 @@ Highcharts.chart('containerentregatiempo', {
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
+        lineColor: '#fff',
+        lineWidth: 1,
         style: {
             color: '#fff',
             fontSize: '14px',
@@ -102,7 +104,17 @@ Highcharts.chart('containerentregatiempo', {
     },
 
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        backgroundColor: '#daa520',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
 
     plotOptions: {
@@ -141,7 +153,7 @@ Highcharts.chart('containerentregatiempo', {
 
         ],
 
-        color: '#075e62',
+        color: '#ffff',
         accessibility: {
 
         }

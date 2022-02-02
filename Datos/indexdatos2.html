@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <meta charset="utf-8">
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/mx/mx-all.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="highcharts-3d.js"></script>
+    <script src="exporting.js"></script>
+    <script src="export-data.js"></script>
+    <script src="accessibility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/mx/mx-all.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/styles/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="/maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="../assets/styles/stylesinvestigacion.css">
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.8.0.min.js"></script>
+
+    <body>
+        <div class="header">
+            <div class="total container">
+                <div class="container"></div>
+                <a href="/" class="header-logo">
+                    <!-- <img src="../assets/images/lseFull.svg" class="header-logo-normal" alt="MZ" />
+                    <img src="../assets/images/lseFull.svg" class="header-logo-inverso" alt="MZ" />-->
+                </a>
+
+                <button class="hamburger hamburger--collapse header-nav-icon" type="button" aria-label="Menu" aria-controls="navigation">
+                      <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                      </span>
+                    </button>
+                <div class="nav" id="navigation" style="font-size: 40px;">
+                    <a href="../indexhome.html" class="text-headline" style="font-size: 40px;">
+                            Inicio </a>
+                    <a href="../indexcarrusel.html" class="text-headline" style="font-size: 40px;">
+                                Claves para entender la transparencia </a>
+
+                    <a href="../Datos/index2.html" class="text-headline" style="font-size: 40px;">
+                      Conoce los datos </a>
+                    <a href="../Entrevistas/index2.html" class="text-headline" style="font-size: 40px;"> Transparencia y sociedad civil </a>
+                    <a href="../Equipo/index.html" class="text-headline" style="font-size: 40px;">
+                        Equipo de Investigación
+                      </a>
+                    <a href="../Contacto/index.html" class="text-headline" style="font-size: 40px;"> Contacto </a>
+                </div>
+            </div>
+        </div>
+        <section id="encabezado">
+            <div class="container3 ">
+                <img src="../assets/images/datos2.png " style="width:100%; height:50% ">
+            </div>
+        </section>
+        <!-- SECCION iNTRODUCCIÓN-->
+        <main style="background-color: black;">
+            <section>
+                <div class="parent3" style="background: goldenrod;">
+                    <div class=" div1 "> INTRODUCCIÓN</div>
+                    <div class="div2 ">
+                        <P>En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia. La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019. Para ver el detalle de las 10 Dependencias
+                            con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa. La gráfica muestra un menú con distintas opciones de visualización y descarga de datos.</P>
+                    </div>
+                </div>
+
+            </section>
+            <!-- FIN SECCION iNTRODUCCIÓN-->
+
+            <!-- SECCION SLIDER METODOLOGÍA 1-->
+            <!-- <section class="testimony ">
+            <div class="testimony__container container ">
+                <img src="./assets/images/ArrowR.svg " class="testimony__arrow " id="before ">
+
+                <section class="testimony__body testimony__body--show " data-id="1 ">
+                    <div class="testimony__texts ">
+                        <h2 class="subtitle ">METODOLOGÍA <span class="testimony__course "></span></h2>
+                    </div>
+
+                    <figure class="testimony__picture ">
+                        <img src="./assets/images/Carrus1.svg " class="testimony__img ">
+                    </figure>
+                </section>
+
+                <section class="testimony__body " data-id="2 ">
+                    <div class="testimony__texts ">
+                        <h2 class="subtitle ">En promedio anualmente se atienden <span class="testimony__course ">50 mil solicitudes de acceso a la información.</span></h2>
+                        <br>
+                        <h2 class="subtitle ">El ingreso de nuevas solicitudes ha mantenido un crecimiento constante<span class="testimony__course ">desde la creación del INAI a la fecha.</span></h2>
+                        <br>
+                        <br>
+                        <p style="font-size: 8px; ">*Promedio calculado con datos de total de solicitudes 2003-2015</p>
+                    </div>
+
+                    <figure class="testimony__picture ">
+                        <img src="./assets/images/Carrus1b.svg " class="testimony__img ">
+                    </figure>
+                </section>
+        </section>
+        <!-- FIN  SLIDER METODOLOGÍA 1-->
+            <!-- INICIO SECCION DEMANDA DE INFORMACIÓN-->
+            <section>
+                <div class="parent3">
+
+                    <div class="div1"> ANÁLISIS DE LA DEMANDA DE INFORMACIÓN</div>
+                </div>
+
+
+                </div>
+                </div>
+            </section>
+            <section>
+                <div class="parent3">
+                    <div class="div1-2">
+                        <p>En este apartado podrás consultar la información sobre el total de solicitudes y su distribución por dependencia. La gráfica muestra el total de solicitudes recibidas cada año entre 2003 y 2019. Para ver el detalle de las 10 Dependencias
+                            con mayor cantidad de solicitudes recibidas por año, da clic sobre la columna del año que te interesa. La gráfica muestra un menú con distintas opciones de visualización y descarga de datos.</p>
+                    </div>
+                    <div class="div2-1 "> DEPENDENCIAS CON MAYOR DEMANDA DE INFORMACIÓN</div>
+
+                </div>
+                <div class="parent4">
+
+                    <div class="div1-3" id="containertotalsolicitudes">
+                    </div>
+                    <div>
+                        <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                    </div>
+                </div>
+            </section>
+            <!-- FIN SECCION DEMANDA DE INFORMACIÓN-->
+            <!-- INICIO SECCION SOLICITUDES POR DEPENDENCIA -->
+            <section>
+                <div class="parent3">
+                    <div class="div2">
+                        <P>En este apartado podrás consultar las dependencias con mayor cantidad de solicitudes recibidas entre 2003 y 2019. La gráfica del lado izquierdo muestra el ranking de instituciones con mayor cantidad de solicitudes recibidas. El
+                            grafico de la izquierda desagrega los datos de total de solicitudes recibidas y muestra el total anual entre 20003 y 2019, para las dependencias seleccionadas. </P>
+                    </div>
+                    <div class="div1"> SOLICITUDES POR DEPENDENCIA</div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer1"></div>
+                    <!-- <div>
+                    <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                </div>
+            </section>
+            <!-- FIN SECCION SOLICITUDES POR DEPENDENCIA-->
+            <!-- INICIO SECCION DISTRIBUCIÓN GEOGRÁFICA-->
+            <section>
+                <div class="parent3">
+                    <div class="div1"> DISTRIBUCIÓN GEOGRÁFICA DE LA DEMANDA DE INFORMACIÓN</div>
+                    <div class="div2">
+                        <P>Este apartado está dedicado a mostrar las tendencias geográficas de la demanda de información. El mapa de la izquierda muestra la clasificación de los estados de la República Mexicana divididos en quintiles, la variable de referencia
+                            es la tasa anual de solicitudes de acceso a la información por cada 100,000 habitantes.
+                        </P>
+                        <P>En el mapa de la derecha muestra el detalle delos municipios del estado seleccionado, clasificados en quintiles de acuerdo a la tasa de solicitudes de acceso a la información por cada cien mil habitantes en un año determinado
+                        </P>
+                    </div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer2"></div>
+                    <!--  <div>
+                    <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                </div>
+            </section>
+            <!-- FIN SECCION DISTRIBUCIÓN GEOGRÁFICA-->
+            <section>
+                <div class="parent3">
+
+                    <div class="div1"> MÉTRICAS SOBRE LAS CARACTERÍSTICAS DE LAS SOLICITUDES</div>
+                </div>
+
+
+                </div>
+                </div>
+            </section>
+            <!-- INICIO SECCION  EXPERIENCIA -->
+            <section>
+                <div class="parent3">
+                    <div class="div2">
+                        <P>
+                        </p>
+                        <p><span class="testimony__course">¿QUÉ ES EL ÍNDICE DE EXPERIENCIA?
+                    </span> <br> <br> Es una métricas que creamoas a partir del análisis del lenguaje utilizado en el solicitud de acceso a la información, y de la cantidad y tipo de detalles que se incluyen en el requerimienrto planteado. </p>
+                        <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span><br> <br> Cada solicitud ingresada fue evaluada para construir el índice de experienci, la gráfica muestra el Índice de Experiencia promedio de una Dependencia en
+                            un año en particular entre 2003 y 2015. El l Índice de Experiencia promedioo se obtiene al sumar el Índice de Experiencia de cada solicitud y dividir entre el total de solicitudes del año. Cada línea representa la evolución
+                            de Índice de Experiencia promedio anual por Dependencia y la gráfica en conjunto muestra el comparativo de las Dependencias seleccionadas.
+                        </P>
+                    </div>
+                    <div class="div1"> ÍNDICE DE EXPERIENCIA</div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer3"></div>
+                    <!--<p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>-->
+
+                </div>
+                </div>
+            </section>
+            <!-- FIN SECCION EXPERIENCIA-->
+            <!-- INICIO SECCION COMPLEJIDAD-->
+            <section>
+                <div class="parent3">
+                    <div class="div1"> COMPLEJIDAD</div>
+                    <div class="div2">
+                        <P><span class="testimony__course">¿QUÉ ES EL ÍNDICE DE COMPLEJIDAD?
+                    </span> <br> <br> Es una métricas que creamoa a partir de la complejidad de las peticiones o preguntas realizadas por el solicitante; </p>
+                        <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span><br> <br> Cada solicitud ingresada fue evaluada para construir el índice de complejidad, la gráfica muestra el promedio del Índice de complejidad para una Dependencia
+                            en un año en particular entre 2003 y 2015. El promedio del Índice de Complejidad se obtiene al sumar el Indice de cada solicitud y dividir entre el total de solicitudes del año. Cada línea representa la evolución del promedio
+                            del Ínbdice de Complejidad anual por Dependencia y la gráfica en conjunto muestra el comparativo de las Dependencias seleccionadas.
+                        </P>
+                    </div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer4"></div>
+                    <div>
+                        <!-- <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>-->
+
+                    </div>
+                </div>
+            </section>
+            <!-- FIN SECCION COMPLEJIDAD-->
+            <!-- INICIO SECCION  ESPECIFICIDAD -->
+            <section>
+                <div class="parent3">
+                    <div class="div2">
+                        <P><span class="testimony__course">¿QUÉ ES EL ÍNDICE DE ESPECIFICIDAD?
+                    </span> <br> <br> Es una métricas que creamos a partir del análisis del texto de las solicitudes de acceso a la información. Revisamos qué tantos detalles se incluyen en la solicitud y generamos una métrica para identificar aquellas
+                            solicitudes que incluyen una gran cantidad de detalles que facilitan la búsqueda de la infiormación solicitada.</p>
+                        <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span><br> <br> Cada solicitud ingresada fue evaluada para construir el índice de especificidad, la gráfica muestra el promedio del Índice de especificidad para una Dependencia
+                            en un año en particular entre 2003 y 2015. El promedio del Índice de especificidad se obtiene al sumar el Indice de cada solicitud y dividir entre el total de solicitudes del año. Cada línea representa la evolución del promedio
+                            del Ínbdice de especificidad anual por Dependencia y la gráfica en conjunto muestra el comparativo de las Dependencias seleccionadas.
+                        </P>
+                    </div>
+                    <div class="div1"> ESPECIFICIDAD</div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer5"></div>
+                    <!--<div>
+                    <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                </div>
+            </section>
+            <!-- FIN SECCION ESPECIFICIDAD-->
+            <!-- INICIO SECCION  EXPERIENCIA-->
+            <section>
+                <div class="parent3">
+                    <div class="div1"> ÍNDICE COMPUESTO DE EXPERIENCIA</div>
+                    <div class="div2">
+                        <P>
+                            <p><span class="testimony__course">¿QUÉ ES EL ÍNDICE COMPUESTO DE EXPERIENCIA?</span> <br> <br> Es una métricas que creamoas a partir del Índice de complejidad de las peticiones o preguntas realizadas por el solicitante;y del
+                                Índice de Experiencia. La intención de este Índice es identificar cómo fue la evolución de las solicitudes de acceso a la información con caracterísricas diversas de experiencia y complejidad. </p>
+                            <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span><br> <br> Cada solicitud ingresada fue evaluada para construir el índice de experiencia y el índice de Complejidad, la gráfica muestra el Índice compuesto de
+                                Experiencia de una Dependencia en un año en particular entre 2003 y 2015. El Índice compuesto de Experiencia promedio se obtiene al sumar El Índice compuesto de Experiencia de cada solicitud y dividir entre el total de
+                                solicitudes del año. Cada línea representa la evolución del promedio del El Índice compuesto de Experiencia anual por Dependencia y la gráfica en conjunto muestra el comparativo de las Dependencias seleccionadas. .
+                            </P>
+                    </div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer6"></div>
+                    <!--<div>
+                    <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                </div>
+            </section>
+            <!-- FIN SECCION EXPERIENCIA-->
+            <!-- INICIO SECCION CARACTERISTICAS DE LAS RESPUESTAS 1 -->
+            <section>
+                <div class="parent3">
+
+                    <div class="div1"> CARACTERÍSTICAS DE LAS RESPUESTAS</div>
+                </div>
+
+
+                </div>
+                </div>
+            </section>
+            <section>
+                <div class="parent3">
+                    <div class="div1">TIEMPO PROMEDIO PARA LA ENTREGA DE INFORMACIÓN</div>
+                    <div class="div2">
+                        <p><span class="testimony__course">¿CÓMO CONTAMOS LOS DÍAS PARA LA EMISIÓN DE RESPUESTAS?</span><br> <br> Tomamos la fecha de ingreso y la fecha de respuesta que proporcionan los datos abiertos del INAI,calculamos los días entre estas
+                            dos fechas y restamos los fines de semana y días feriados oficiales para México. </p>
+                        <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span><br> <br> Cada solicitud cuenta con los datos de fecha de ingreso y fecha de respuesta, por lo que para cada solicitud pudo calcularse una cantidad de días hábiles
+                            para la emisión de la respuesta oficial.La gráfica muestra el promedio de días hábiles que demoró una dependencia en una año determinado entre 2003 y 2015 para emitir respuesta. El promedio de días hábiles se obtiene al sumar
+                            la cantidad de días hábiles entre la fecha de ingreso y la fecha de respuesta de cada solicitud recibida por cada Dependencia y dividir entre el total de solicitudes del año para una Dependencia en particular. Cada línea representa
+                            la evolución, entre 2003 y 2015) del promedio de días hábiles para la emisión de una respuesta de una Dependencia determinada y la gráfica en conjunto muestra el comparativo de las Dependencias seleccionadas.
+                        </p>
+                    </div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer7"></div>
+                    <!-- <div>
+                    <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                </div>
+            </section>
+            <!-- FIN SECCION CARACTERISTICAS DE LAS RESPUESTAS 1 -->
+            <!-- INICIO SECCION  Tipos de respuestas -->
+            <section>
+                <div class="parent3">
+                    <div class="div1">TIPOS DE RESPUESTAS</div>
+                    <div class="div2">
+                        <p><span class="testimony__course">¿CÓMO MEDIMOS LA PROPORCIÓN DE SOLICITUDES CON UN TIPO DE RESPUESTA?</span> <br> <br>Es una métricas que creamos a partir del conteo del total de las solicitudes recibidas anualmente por una Dependencia
+                            en particular, y el total de las solicitudes que fueron entregadas con cada tipo de respuesta. </p>
+                        <p><span class="testimony__course">¿CÓMO SE LEE ESTE GRÁFICO?</span>
+                            <br>
+                            <br>Este gráfico permite al usuario explorar la información relativa al % de respuestas que emitió cada Sujeto Obligado de acuerdo a las diversas categorías que establece el INAI Cada fila muestra la eviolución de la proproción
+                            del tipo de respuesta emitida por el Sujeto Obligado, pero la proporción se calcula de acuerdo al total de solicitudes recibidas cada año. Cada columna muestra el comparativo de las proporciones de los distintos tipos de respuesta
+                            emitidos por el Sujeto Obligado en un año determinado.</p>
+                    </div>
+                </div>
+                <div class="parent4">
+                    <div class="div1-3" id="vizContainer8"></div>
+                    <div>
+                        <!-- <p class="fuente">Fuente:Elaboración a partir del procesamiento de los datos abiertos del INAI</p>
+
+                </div>-->
+                    </div>
+            </section>
+        </main>
+        <!-- FIN SECCION Tipos de respuestas-->
+
+
+
+        <script src=../assets/scripts/respuestas.js></script>
+
+        <script src=../assets/scripts/nav.js></script>
+        <script src=../assets/scripts/ranking.js></script>
+        <script src=../assets/scripts/evolucionsolicitudes.js></script>
+        <script src=../assets/scripts/containertotalsolicitudes.js></script>
+        <script src=../assets/scripts/dashmapas.js></script>
+        <script src=../assets/scripts/experiencia.js></script>
+        <script src=../assets/scripts/complejidad.js></script>
+        <script src=../assets/scripts/experiencia.js></script>
+        <script src=../assets/scripts/complejidad.js></script>
+        <script src=../assets/scripts/especificidad.js></script>
+        <script src=../assets/scripts/experienciacomp.js></script>
+        <script src=../assets/scripts/diashab.js></script>´
+
+
+    </body>
+
+
+</html>

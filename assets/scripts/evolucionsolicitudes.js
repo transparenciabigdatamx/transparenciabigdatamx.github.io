@@ -9,6 +9,7 @@ Highcharts.chart('containerevolucion', {
             color: '#2c666eff',
             fontSize: '20px',
             fontWeight: 'bold',
+            backgroundColor: '#000',
 
         },
         text: 'SOLICITUDES DE ACCESO A LA INFORMACIÓN INGRESADAS , 2003-2019'
@@ -16,7 +17,8 @@ Highcharts.chart('containerevolucion', {
 
     subtitle: {
         align: "left",
-        margin: 50,
+        margin: 100,
+
         verticalAlign: 'bottom',
 
 
@@ -25,7 +27,19 @@ Highcharts.chart('containerevolucion', {
             fontSize: '13px',
             fontFamily: 'Arial Narrow',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI'
+
+    },
+    tooltip: {
+        backgroundColor: '#000',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
 
     },
 
@@ -37,6 +51,9 @@ Highcharts.chart('containerevolucion', {
         minorGridLineColor: "#ffff",
         tickColor: "#ffff",
         tickWidth: 1,
+        lineColor: '#e1cc4f',
+        lineWidth: 1,
+
         style: {
             color: '#ffff',
             fontSize: '14px',
@@ -48,7 +65,9 @@ Highcharts.chart('containerevolucion', {
         },
         title: {
 
-            text: 'Miles de Solicitudes',
+            text: 'Solicitudes',
+
+
 
         }
 
@@ -65,7 +84,8 @@ Highcharts.chart('containerevolucion', {
         style: {
             color: '#ffff',
             fontSize: '20px',
-            fontFamily: 'Nova Light'
+            fontFamily: 'Arial Narrow',
+            fontWeight: 'bold',
         },
 
         accessibility: {
@@ -106,11 +126,20 @@ Highcharts.chart('containerevolucion', {
             242663
         ],
         color: '#000',
+        exporting: {
+            showTable: true
+        },
+
+
 
     }],
     chart: {
+        renderTo: 'container',
 
-        backgroundColor: 'goldenrod'
+        backgroundColor: 'goldenrod',
+        marginRight: 150,
+        marginLeft: 150,
+        marginBottom: 150,
     },
     responsive: {
         rules: [{
@@ -121,7 +150,7 @@ Highcharts.chart('containerevolucion', {
                 legend: {
                     layout: 'horizontal',
                     align: 'left',
-                    verticalAlign: 'top',
+                    verticalAlign: 'bottom',
 
                 }
             }

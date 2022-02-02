@@ -41,6 +41,7 @@ Highcharts.chart('containercomparacion', {
 
     },
 
+
     yAxis: {
         gridLineDashStyle: "Dot",
         gridLineColor: "#fff",
@@ -49,6 +50,8 @@ Highcharts.chart('containercomparacion', {
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
+        lineColor: '#e1cc4f',
+        lineWidth: 1,
         style: {
             color: '#fff',
             fontSize: '14px',
@@ -102,7 +105,17 @@ Highcharts.chart('containercomparacion', {
     },
 
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        backgroundColor: '#000',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
 
     plotOptions: {
@@ -119,7 +132,7 @@ Highcharts.chart('containercomparacion', {
     },
 
     series: [{
-        name: 'Proporción anual de solicitudes clasificadas como "Entrega"',
+        name: 'Proporción anual de respuestas <br> clasificadas como "Entrega"',
         data: [53.76,
             52.73,
             54.40,

@@ -16,7 +16,7 @@ Highcharts.chart('expertise1', {
 
         style: {
             fontFamily: "Arial Narrow",
-            color: '#0B5345',
+            color: '#fff',
             fontSize: '20px',
             fontWeight: 'bold',
 
@@ -52,7 +52,8 @@ Highcharts.chart('expertise1', {
             fontSize: '14px',
             fontFamily: 'Arial Narrow',
             fontWeight: 'bold',
-
+            lineColor: '#fff',
+            lineWidth: 1,
 
 
         },
@@ -104,7 +105,17 @@ Highcharts.chart('expertise1', {
     },
 
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        backgroundColor: '#daa520',
+        borderColor: 'black',
+        borderRadius: 10,
+        borderWidth: 3,
+        style: {
+            color: 'white',
+
+            fontSize: '1.5em',
+            fontFamily: "Arial Narrow",
+        }
     },
 
     plotOptions: {
