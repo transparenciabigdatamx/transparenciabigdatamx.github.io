@@ -24,8 +24,6 @@ Highcharts.chart('containercomparacion', {
         text: 'PROPORCIÓN ANUAL DE SOLICITUDES CLASIFICADAS COMO "ENTREGA"'
     },
 
-
-
     subtitle: {
         align: "left",
         margin: 50,
@@ -37,9 +35,10 @@ Highcharts.chart('containercomparacion', {
             fontSize: '13px',
             fontFamily: 'Arial Narrow',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI'
+        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
 
     },
+
 
 
     yAxis: {

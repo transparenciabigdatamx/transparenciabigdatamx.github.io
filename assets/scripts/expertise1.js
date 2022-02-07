@@ -31,13 +31,14 @@ Highcharts.chart('expertise1', {
 
 
         style: {
-            color: '#0B5345',
+            color: '#17503d',
             fontSize: '13px',
             fontFamily: 'Arial Narrow',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI'
+        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
 
     },
+
 
     yAxis: {
         gridLineDashStyle: "Dot",

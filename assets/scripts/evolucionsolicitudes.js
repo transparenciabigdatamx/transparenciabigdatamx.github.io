@@ -17,8 +17,7 @@ Highcharts.chart('containerevolucion', {
 
     subtitle: {
         align: "left",
-        margin: 100,
-
+        margin: 50,
         verticalAlign: 'bottom',
 
 
@@ -27,8 +26,10 @@ Highcharts.chart('containerevolucion', {
             fontSize: '13px',
             fontFamily: 'Arial Narrow',
         },
+        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
 
     },
+
     tooltip: {
         backgroundColor: '#000',
         borderColor: 'black',

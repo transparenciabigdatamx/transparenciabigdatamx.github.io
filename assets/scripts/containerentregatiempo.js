@@ -22,7 +22,6 @@ Highcharts.chart('containerentregatiempo', {
         text: 'PROPORCIÓN ANUAL DE RESPUESTAS ENTREGADAS DENTRO DEL PLAZO LEGAL'
     },
 
-
     subtitle: {
         align: "left",
         margin: 50,
@@ -34,9 +33,11 @@ Highcharts.chart('containerentregatiempo', {
             fontSize: '13px',
             fontFamily: 'Arial Narrow',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI'
+        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
 
     },
+
+
 
     yAxis: {
         gridLineDashStyle: "Dot",
