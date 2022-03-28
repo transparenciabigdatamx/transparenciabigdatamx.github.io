@@ -3,90 +3,108 @@ Highcharts.chart('containerevolucion', {
     title: {
         margin: 50,
         align: "left",
+        title: null,
 
         style: {
-            fontFamily: "Arial Narrow",
-            color: '#2c666eff',
-            fontSize: '20px',
+            fontFamily: "Nunito",
+            color: '#262626',
+            fontSize: '30px',
             fontWeight: 'bold',
-            backgroundColor: '#000',
+
 
         },
-        text: 'SOLICITUDES DE ACCESO A LA INFORMACIÓN INGRESADAS , 2003-2019'
+        text: 'SOLICITUDES DE ACCESO A <br>LA INFORMACIÓN INGRESADAS,2003-2019'
     },
 
     subtitle: {
         align: "left",
         margin: 50,
+        marginLeft: 100,
+        marginRight: 200,
         verticalAlign: 'bottom',
 
 
+
         style: {
-            color: '#17503d',
-            fontSize: '13px',
-            fontFamily: 'Arial Narrow',
+            color: '#262626',
+            fontSize: '15px',
+            fontFamily: 'Nunito',
+            verticalAlign: 'bottom',
+
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
+        text: '           <br>Fuente:<br> Los datos que se muestran en la gráfica se calcularon considerando únicamente  solicitudes de acceso a la información publica dirigidas a dependencias de la Administración Pública Federal (se excluye cualquier otro Sujeto obligado distinto a los de la Administración Pública Federal). Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.Tampoco se consideran solicitudes de Datos Personales'
 
     },
 
     tooltip: {
-        backgroundColor: '#000',
-        borderColor: 'black',
+        backgroundColor: '#88524D',
+        opacity: 0.8,
+        borderColor: '#611111',
         borderRadius: 10,
         borderWidth: 3,
         style: {
             color: 'white',
 
-            fontSize: '1.5em',
-            fontFamily: "Arial Narrow",
+            fontSize: '25px',
+            fontFamily: "Nunito",
         }
 
     },
 
     yAxis: {
+
         gridLineDashStyle: "Dot",
-        gridLineColor: "#ffff",
+        gridLineColor: "#262626",
         lineColor: "#ffff",
         minorGridLineColor: "#ffff",
         minorGridLineColor: "#ffff",
         tickColor: "#ffff",
         tickWidth: 1,
-        lineColor: '#e1cc4f',
+        lineColor: '#262626',
         lineWidth: 1,
 
-        style: {
-            color: '#ffff',
-            fontSize: '14px',
-            fontFamily: 'Arial Narrow',
-            fontWeight: 'bold',
 
-
-
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
+
         title: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
 
-            text: 'Solicitudes',
-
-
-
+            text: 'Cantidad de Solicitudes'
         }
+
 
     },
 
     xAxis: {
+
         gridLineDashStyle: "Dot",
         gridLineColor: "#ffff",
-        lineColor: "#ffff",
-        minorGridLineColor: "#ffff",
+        lineColor: '#262626',
+
+        minorGridLineColor: "# ffff ",
         minorGridLineColor: "#ffff",
         tickColor: "#ffff",
         tickWidth: 1,
-        style: {
-            color: '#ffff',
-            fontSize: '20px',
-            fontFamily: 'Arial Narrow',
-            fontWeight: 'bold',
+        fontSize: '60 px',
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
 
         accessibility: {
@@ -98,22 +116,34 @@ Highcharts.chart('containerevolucion', {
 
     plotOptions: {
         series: {
-            label: {
+
+            lineWidth: 10,
+
+
+            Labels: {
+                enabled: false,
+
                 connectorAllowed: false
             },
-            pointStart: 2003
+            pointStart: 2003,
+
         }
     },
 
     series: [{
-        name: 'Miles de solicitudes anuales',
+        label: {
+            enabled: false
+        },
+        lineWidth: 10,
+        showInLegend: false,
+        name: 'Solicitudes anuales',
         data: [
-            22573,
-            34216,
-            43391,
-            50757,
-            78365,
-            85604,
+            22339,
+            33887,
+            43008,
+            50286,
+            77816,
+            85230,
             97486,
             99713,
             96073,
@@ -121,23 +151,27 @@ Highcharts.chart('containerevolucion', {
             109445,
             116078,
             121958,
-            146851,
-            210781,
-            199162,
-            242663
+            135501,
+            184273,
+            170963,
+            214273
         ],
-        color: '#000',
+        lineWidth: 7,
+        color: '#DE1738',
+
         exporting: {
             showTable: true
         },
 
 
 
+
     }],
     chart: {
+        height: 600,
         renderTo: 'container',
 
-        backgroundColor: 'goldenrod',
+        backgroundColor: 'white',
         marginRight: 150,
         marginLeft: 150,
         marginBottom: 150,
@@ -149,9 +183,20 @@ Highcharts.chart('containerevolucion', {
             },
             chartOptions: {
                 legend: {
+                    itemStyle: {
+                        color: 'white',
+                        fontWeight: 'bold'
+                    },
+                    enabled: false,
+                    showInLegend: false,
                     layout: 'horizontal',
                     align: 'left',
                     verticalAlign: 'bottom',
+                    itemStyle: {
+                        color: 'white',
+                        fontWeight: 'bold'
+                    }
+
 
                 }
             }

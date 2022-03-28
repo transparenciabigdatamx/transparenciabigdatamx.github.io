@@ -59,7 +59,7 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: white;
-    background-color: black;
+    background-color: #308C83;
 }
 
 h1,
@@ -87,9 +87,10 @@ a:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.gray {
+
+/*.gray {
     color: #a5a5a5;
-}
+}*/
 
 .team {
     margin: 40px;
@@ -160,7 +161,7 @@ a:hover {
 .team-member figure:hover figcaption {
     visibility: visible;
     color: #fff;
-    background: goldenrod;
+    background: #D9CE36;
     /* Primary color, can be changed via colors.css */
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;

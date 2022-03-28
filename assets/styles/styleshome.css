@@ -4,8 +4,19 @@
         }
         
         body {
-            font-family: 'Barlow', sans-serif;
-            background-color: black;
+            font-family: 'Nunito', sans-serif;
+            background-color: #262626;
+        }
+        
+        .izquierda1 {
+            height: 100vh;
+            width: 30%;
+            font-family: Zilla Slab Highlight;
+            /*background: url(../images/Picture5.jpg);
+            background-size: cover;*/
+            display: block;
+            align-items: center;
+            display: inline-block;
         }
         
         .izquierda {
@@ -13,7 +24,7 @@
             width: 30%;
             /*background: url(../images/Picture5.jpg);
             background-size: cover;*/
-            background-color: black;
+            background-color: #262626;
             display: block;
             align-items: center;
             display: inline-block;
@@ -51,7 +62,7 @@
             width: 90%;
             height: 200px;
             color: #fff;
-            background-color: black;
+            background-color: #262626;
             display: flex;
             margin: auto;
             float: left;
@@ -61,8 +72,8 @@
             align-items: center;
             text-align: justify;
             /*centrar verticalmente 300px- tamaño de fuente*/
-            font-size: 15px;
-            font-weight: 400;
+            font-size: 25px;
+            font-weight: 600;
             top: 30%;
             margin-top: 50px;
             /*animation: color 2s infinite;*/

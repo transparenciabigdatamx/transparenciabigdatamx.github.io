@@ -2,8 +2,9 @@ var colors = Highcharts.getOptions().colors;
 
 Highcharts.chart('expertise1', {
     chart: {
-        type: 'spline',
-        backgroundColor: '#000'
+        height: 600,
+        type: 'line',
+        backgroundColor: 'white'
     },
 
     legend: {
@@ -15,13 +16,13 @@ Highcharts.chart('expertise1', {
         align: "left",
 
         style: {
-            fontFamily: "Arial Narrow",
-            color: '#fff',
-            fontSize: '20px',
+            fontFamily: "Nunito",
+            color: '#262626',
+            fontSize: '30px',
             fontWeight: 'bold',
 
         },
-        text: 'PUNTAJE PROMEDIO ÍNDICE DE EXPERIENCIA'
+        text: 'PUNTAJE PROMEDIO "EXPERTISE"'
     },
 
     subtitle: {
@@ -32,33 +33,42 @@ Highcharts.chart('expertise1', {
 
         style: {
             color: '#17503d',
-            fontSize: '13px',
-            fontFamily: 'Arial Narrow',
+            fontSize: '20px',
+            fontFamily: 'Nunito',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
+        text: 'Fuente: Los datos que se muestran en la gráfica se calcularon considerando únicamente solicitudes de acceso a la información publica dirigidas a dependencias de la Administración Pública Federal(se excluye cualquier otro Sujeto obligado distinto a los de la Administración Pública Federal).Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.Tampoco se consideran solicitudes de Datos Personales '
 
     },
 
 
     yAxis: {
         gridLineDashStyle: "Dot",
-        gridLineColor: "#CEC6B9",
-        lineColor: "#CEC6B9",
-        minorGridLineColor: "#CEC6B9",
-        minorGridLineColor: "#BDC3C7",
-        tickColor: "#0B5345",
+        gridLineColor: "#262626",
+        lineColor: "#ffff",
+        minorGridLineColor: "#ffff",
+        minorGridLineColor: "#ffff",
+        tickColor: "#ffff",
         tickWidth: 1,
-        style: {
-            color: '#7c7c7cff',
-            fontSize: '14px',
-            fontFamily: 'Arial Narrow',
-            fontWeight: 'bold',
-            lineColor: '#fff',
-            lineWidth: 1,
-
-
+        lineColor: '#262626',
+        lineWidth: 1,
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
+
         title: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+                lineColor: '#fff',
+                lineWidth: 1,
+            },
 
             text: 'Puntaje promedio',
 
@@ -68,18 +78,27 @@ Highcharts.chart('expertise1', {
 
     xAxis: {
         gridLineDashStyle: "Dot",
-        gridLineColor: "#CEC6B9",
-        lineColor: "#CEC6B9",
-        minorGridLineColor: "#CEC6B9",
-        minorGridLineColor: "#BDC3C7",
-        tickColor: "#0B5345",
+        gridLineColor: "#ffff",
+        lineColor: "#262626",
+        minorGridLineColor: "#ffff",
+        minorGridLineColor: "#ffff",
+        tickColor: "#ffff",
         tickWidth: 1,
-        style: {
-            color: '#7c7c7cff',
-            fontSize: '20px',
-            fontFamily: 'Nova Light'
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
+
         title: {
+            style: {
+                color: 'white',
+                fontSize: '20px',
+                fontFamily: 'Nova Light'
+            },
             text: 'Año'
         },
         accessibility: {
@@ -115,7 +134,7 @@ Highcharts.chart('expertise1', {
             color: 'white',
 
             fontSize: '1.5em',
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
         }
     },
 
@@ -133,24 +152,21 @@ Highcharts.chart('expertise1', {
     },
 
     series: [{
+
+        label: {
+            enabled: false
+        },
         name: 'Puntaje promedio ',
-        data: [0.22,
-            0.22,
-            0.21,
-            0.22,
-            0.22,
-            0.24,
-            0.22,
-            0.24,
-            0.26,
-            0.27,
-            0.33,
-            0.29,
-            0.28,
-            0.28,
-            0.31,
-            0.29,
-            0.29,
+        showInLegend: false,
+        data: [-0.06, -0.05, -0.05, -0.04, -0.04, -0.02, -0.03, -0.01,
+            0.00, -0.01,
+            0.04,
+            0.01,
+            0.01,
+            0.00,
+            0.02,
+            0.02,
+            0.01,
 
         ],
 
@@ -172,7 +188,9 @@ Highcharts.chart('expertise1', {
                     spacingRight: 1
                 },
                 legend: {
-                    itemWidth: 150
+                    itemWidth: 150,
+                    enabled: false,
+                    showInLegend: false,
                 },
                 xAxis: {
                     categories: ["2003",
@@ -186,7 +204,8 @@ Highcharts.chart('expertise1', {
                         "2011",
                         "2012",
                         "2013",
-                        "2014", "2015"
+                        "2014", "2015", "2016",
+                        "2017", "2018", "2019"
                     ],
                     title: ''
                 },

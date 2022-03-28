@@ -2,8 +2,9 @@ var colors = Highcharts.getOptions().colors;
 
 Highcharts.chart('containercomparacion', {
     chart: {
-        type: 'spline',
-        backgroundColor: 'goldenrod'
+        height: 600,
+        type: 'line',
+        backgroundColor: 'white'
     },
 
     legend: {
@@ -15,13 +16,13 @@ Highcharts.chart('containercomparacion', {
         align: "left",
 
         style: {
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
             color: '#2c666eff',
-            fontSize: '20px',
+            fontSize: '30px',
             fontWeight: 'bold',
 
         },
-        text: 'PROPORCIÓN ANUAL DE SOLICITUDES CLASIFICADAS COMO "ENTREGA"'
+        text: 'PROPORCIÓN ANUAL <br>DE SOLICITUDES CLASIFICADAS<br> COMO "ENTREGA"'
     },
 
     subtitle: {
@@ -32,10 +33,10 @@ Highcharts.chart('containercomparacion', {
 
         style: {
             color: '#17503d',
-            fontSize: '13px',
-            fontFamily: 'Arial Narrow',
+            fontSize: '20px',
+            fontFamily: 'Nunito',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
+        text: 'Fuente: Los datos que se muestran en la gráfica se calcularon considerando únicamente  solicitudes de acceso a la información publica dirigidas a dependencias de la Administración Pública Federal (se excluye cualquier otro Sujeto obligado distinto a los de la Administración Pública Federal). Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.Tampoco se consideran solicitudes de Datos Personales'
 
     },
 
@@ -49,20 +50,28 @@ Highcharts.chart('containercomparacion', {
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
-        lineColor: '#e1cc4f',
+        lineColor: '#262626',
         lineWidth: 1,
-        style: {
-            color: '#fff',
-            fontSize: '14px',
-            fontFamily: 'Arial Narrow',
-            fontWeight: 'bold',
-
-
-
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
         title: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+
             text: 'Proporción de solicitudes'
         },
+
+
         accessibility: {
             description: 'Proporción de solicitudes'
         }
@@ -71,11 +80,20 @@ Highcharts.chart('containercomparacion', {
     xAxis: {
         gridLineDashStyle: "Dot",
         gridLineColor: "#fff",
-        lineColor: "#fff",
+        lineColor: "#262626",
         minorGridLineColor: "#fff",
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+        },
+
         style: {
             color: '#fff',
             fontSize: '20px',
@@ -113,12 +131,17 @@ Highcharts.chart('containercomparacion', {
             color: 'white',
 
             fontSize: '1.5em',
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
         }
     },
 
     plotOptions: {
         series: {
+            Labels: {
+                enabled: false,
+
+                connectorAllowed: false
+            },
             point: {
                 events: {
                     click: function() {
@@ -131,24 +154,29 @@ Highcharts.chart('containercomparacion', {
     },
 
     series: [{
+        label: {
+            enabled: false
+        },
+        showInLegend: false,
+
         name: 'Proporción anual de respuestas <br> clasificadas como "Entrega"',
-        data: [53.76,
-            52.73,
-            54.40,
-            54.02,
-            58.27,
-            55.45,
+        data: [53.82,
+            52.86,
+            54.55,
+            54.25,
+            58.54,
+            55.60,
             55.34,
-            55.88,
+            55.89,
             56.09,
             60.57,
-            61.05,
-            60.70,
+            61.06,
+            60.71,
             60.14,
-            62.03,
-            67.24,
-            74.53,
-            68.58,
+            61.86,
+            66.81,
+            73.07,
+            68.23,
 
         ],
 
@@ -170,7 +198,9 @@ Highcharts.chart('containercomparacion', {
                     spacingRight: 1
                 },
                 legend: {
-                    itemWidth: 150
+                    itemWidth: 150,
+                    enabled: false,
+                    showInLegend: false,
                 },
                 xAxis: {
                     categories: ["2003",

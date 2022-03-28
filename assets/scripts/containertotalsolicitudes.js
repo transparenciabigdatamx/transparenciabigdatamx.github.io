@@ -12,7 +12,7 @@ Highcharts.chart('containertotalsolicitudes', {
         align: "left",
 
         style: {
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
             color: '#2c666eff',
             fontSize: '30px',
             fontWeight: 'bold',
@@ -37,7 +37,7 @@ Highcharts.chart('containertotalsolicitudes', {
         style: {
             color: '#7c7c7cff',
             fontSize: '30px',
-            fontFamily: 'Arial Narrow',
+            fontFamily: 'Nunito',
             fontWeight: 'bold',
 
 
@@ -56,7 +56,7 @@ Highcharts.chart('containertotalsolicitudes', {
         style: {
             color: '#7c7c7cff',
             fontSize: '30px',
-            fontFamily: 'Arial Narrow'
+            fontFamily: 'Nunito'
         },
         title: {
             text: 'Total de solicitudes 2003-2015'
@@ -71,7 +71,7 @@ Highcharts.chart('containertotalsolicitudes', {
         style: {
             color: '#17503d',
             fontSize: '13px',
-            fontFamily: 'Arial Narrow',
+            fontFamily: 'Nunito',
         },
         text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
 
@@ -99,7 +99,7 @@ Highcharts.chart('containertotalsolicitudes', {
             color: 'white',
 
             fontSize: '1.5em',
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
         }
     },
     series: [{

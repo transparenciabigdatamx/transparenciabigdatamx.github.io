@@ -13,27 +13,27 @@ Highcharts.chart('containerentregatiempo', {
         align: "left",
 
         style: {
-            fontFamily: "Arial Narrow",
-            color: '#ffff',
-            fontSize: '20px',
+            fontFamily: "Nunito",
+            color: '#262626',
+            fontSize: '30px',
             fontWeight: 'bold',
 
         },
-        text: 'PROPORCIÓN ANUAL DE RESPUESTAS ENTREGADAS DENTRO DEL PLAZO LEGAL'
+        text: 'PROPORCIÓN ANUAL <br>DE RESPUESTAS ENTREGADAS <br>DENTRO DEL PLAZO LEGAL'
     },
 
     subtitle: {
-        align: "left",
+        align: "right",
         margin: 50,
         verticalAlign: 'bottom',
 
 
         style: {
             color: '#17503d',
-            fontSize: '13px',
-            fontFamily: 'Arial Narrow',
+            fontSize: '20px',
+            fontFamily: 'Nunito',
         },
-        text: 'Fuente: Elaboración propia con base en datos abiertos del INAI. Los datos que se muestran únicamente consideran solicitudes de información dirigidas a dependencias de la administración pública federal. Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.'
+        text: 'Fuente: Los datos que se muestran en la gráfica se calcularon considerando únicamente  solicitudes de acceso a la información publica dirigidas a dependencias de la Administración Pública Federal (se excluye cualquier otro Sujeto obligado distinto a los de la Administración Pública Federal). Para el análisis se excluyeron solicitudes ingresadas desde fuera de México.Tampoco se consideran solicitudes de Datos Personales'
 
     },
 
@@ -47,17 +47,36 @@ Highcharts.chart('containerentregatiempo', {
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
-        lineColor: '#fff',
-        lineWidth: 1,
-        style: {
-            color: '#fff',
-            fontSize: '14px',
-            fontFamily: 'Arial Narrow',
-            fontWeight: 'bold',
+        lineColor: '#262626',
+        lineWidth: 5,
 
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
+
         title: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+
             text: 'Proporción de respuestas'
+        },
+
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
         accessibility: {
             description: 'Proporción de respuestas'
@@ -67,15 +86,35 @@ Highcharts.chart('containerentregatiempo', {
     xAxis: {
         gridLineDashStyle: "Dot",
         gridLineColor: "#fff",
-        lineColor: "#fff",
+        lineColor: "#262626",
         minorGridLineColor: "#fff",
         minorGridLineColor: "#fff",
         tickColor: "#fff",
         tickWidth: 1,
+
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+        },
+
+        title: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+
+            text: 'Año'
+        },
         style: {
             color: '#fff',
             fontSize: '14px',
-            fontFamily: 'Arial Narrow',
+            fontFamily: 'Nunito',
             fontWeight: 'bold',
             fontColor: '#fff',
 
@@ -83,8 +122,15 @@ Highcharts.chart('containerentregatiempo', {
 
         },
         title: {
-            text: 'Año'
+            text: 'Año',
+            color: '#262626',
+            fontSize: '1.5em',
+            fontFamily: 'Nunito',
+            fontWeight: 'bold',
         },
+
+
+
         accessibility: {
             description: 'Período 2003-2019'
         },
@@ -106,7 +152,7 @@ Highcharts.chart('containerentregatiempo', {
 
     tooltip: {
         valueSuffix: '%',
-        backgroundColor: '#daa520',
+        backgroundColor: '#262626',
         borderColor: 'black',
         borderRadius: 10,
         borderWidth: 3,
@@ -114,12 +160,18 @@ Highcharts.chart('containerentregatiempo', {
             color: 'white',
 
             fontSize: '1.5em',
-            fontFamily: "Arial Narrow",
+            fontFamily: "Nunito",
         }
     },
 
     plotOptions: {
         series: {
+            Labels: {
+                enabled: false,
+
+                connectorAllowed: false
+            },
+
             point: {
                 events: {
                     click: function() {
@@ -132,66 +184,79 @@ Highcharts.chart('containerentregatiempo', {
     },
 
     series: [{
-        name: 'Dentro de 20 días hábiles',
-        data: [27.4,
-            37.76,
-            41.31,
-            55.95,
-            54,
-            71.32,
-            66.9,
-            74.81,
-            69.65,
-            62.93,
-            54.4,
-            54.88,
-            56.75,
-            57.6,
-            57.37,
-            40.27,
-            48.75,
+
+            label: {
+                enabled: true
+            },
+            name: 'Dentro de 20 días hábiles',
+            showInLegend: false,
+
+            data: [84.82,
+                79.84,
+                77.29,
+                69.54,
+                68.29,
+                60.27,
+                62.95,
+                58.19,
+                60.93,
+                61.88,
+                66.78,
+                66.68,
+                65.87,
+                63.81,
+                60.62,
+                69.32,
+                65.99,
 
 
-        ],
+            ],
 
-        color: '#ffff',
-        accessibility: {
+            color: '#DE1738',
+            accessibility: {
 
+            }
+        },
+        {
+            name: 'Dentro de 40 días hábiles',
+            showInLegend: false,
+
+            data: [96.57,
+                95.00,
+                94.29,
+                91.52,
+                90.65,
+                86.88,
+                87.15,
+                85.82,
+                85.71,
+                88.66,
+                91.05,
+                91.72,
+                89.69,
+                91.41,
+                92.55,
+                97.51,
+                92.43,
+
+
+            ],
+            dashStyle: 'ShortDashDot',
+            color: '#D9CE36',
+            lineWidth: 5,
         }
-    }, {
-        name: 'Dentro de 40 días hábiles',
-        data: [5.74,
-            9.17,
-            10.23,
-            15.45,
-            10.83,
-            15.22,
-            17.83,
-            17.57,
-            19.91,
-            19.47,
-            18.72,
-            17.84,
-            17.39,
-            15.07,
-            9.97,
-            10.83,
-            11.36,
-
-
-        ],
-        dashStyle: 'ShortDashDot',
-        color: 'goldenrod'
-    }],
+    ],
     chart: {
+        height: 600,
 
-        backgroundColor: '#000'
+        backgroundColor: 'white'
     },
 
     responsive: {
         rules: [{
             condition: {
                 maxWidth: 600
+
             },
             chartOptions: {
                 chart: {
@@ -199,7 +264,22 @@ Highcharts.chart('containerentregatiempo', {
                     spacingRight: 1
                 },
                 legend: {
-                    itemWidth: 150
+
+                    itemStyle: {
+                        color: 'white',
+                        fontWeight: 'bold'
+                    },
+                    itemWidth: 150,
+                    enabled: false,
+                    showInLegend: false,
+                    layout: 'horizontal',
+                    align: 'left',
+                    verticalAlign: 'bottom',
+                    itemStyle: {
+                        color: 'white',
+                        fontWeight: 'bold'
+                    }
+
                 },
                 xAxis: {
                     categories: ["2003",

@@ -23,7 +23,9 @@
     @import url("layout/footer.css");
     /* Blocks */
     
+    @import url('https://fonts.googleapis.com/css2?family=Coda&family=Mitr:wght@200&family=Monoton&family=Playfair+Display&family=Prata&family=Raleway&family=Train+One&family=Vast+Shadow&family=Zilla+Slab+Highlight&display=swap');
     @import url("blocks/proyecto.css");
+    Zilla Slab Highlig
     /* Pages */
     
      ::after,
@@ -34,12 +36,12 @@
     
      :root {
         --color_primary: #f3f3f3;
-        --color_sec: goldenrod;
-        --color_title: goldenrod;
+        --color_sec: #F2E638;
+        --color_title: #F2E638;
         --align-title: left;
         --padding-container: 160px 0;
-        --width-container: 90%;
-        --max_width_container: 1200px;
+        --width-container: 100%;
+        --max_width_container: 1300px;
     }
     
     .body {
@@ -47,7 +49,7 @@
     }
     
     main {
-        background-color: black;
+        background-color: #308C83;
     }
     
     .container {
@@ -75,7 +77,7 @@
         max-width: var(--max_width_container);
         margin: 0;
         padding: 20px;
-        height: 800px;
+        height: 300px;
         background-color: white;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -85,6 +87,7 @@
         font-size: 55px;
         font-weight: bolder;
         text-align: center;
+        position: sticky;
     }
     
     .container.explorah2 {
@@ -101,7 +104,7 @@
         text-transform: capitalize;
         font-size: 60px;
         font-weight: bolder;
-        color: goldenrod;
+        color: #F2E638;
     }
     
     .col-sm-6 {
@@ -147,7 +150,7 @@
         float: left;
         width: 50%;
         font-size: 100px;
-        color: goldenrod;
+        color: #F2E638;
     }
     
     .column2 {
@@ -185,7 +188,7 @@
         width: 90%;
         height: 700 px;
         max-width: var(--max_width_container);
-        background-color: goldenrod;
+        background-color: #B4D9D9;
         margin: 30px;
         padding: 50px;
         margin-top: 0px;
@@ -224,7 +227,7 @@
         width: 90%;
         height: 700 px;
         max-width: var(--max_width_container);
-        background-color: goldenrod;
+        background-color: #F2E638;
         margin: 30px;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -234,7 +237,7 @@
     .carrousel4.container {
         width: 90%;
         max-width: var(--max_width_container);
-        background-color: goldenrod;
+        background-color: #F2E638;
         margin: 30px;
         margin-top: 0px;
         padding: 50px;
@@ -261,13 +264,13 @@
     
     .scrolly.container {
         --padding-container: 0;
-        background-color: #000;
+        background-color: #308C83;
     }
     
     #scrolly {
         position: relative;
         font-family: 'Poppins', sans-serif;
-        background-color: black;
+        background-color: #308C83;
         max-height: fit-content;
         padding: 1rem;
     }
@@ -337,13 +340,13 @@
     /* Testimony */
     
     .testimony {
-        background-color: #070707;
+        background-color: white;
         margin-left: 80px;
     }
     
     .testimony__container {
         display: grid;
-        grid-template-columns: 50px 1fr 50px;
+        grid-template-columns: 30px 1fr 30px;
         gap: 1em;
         align-items: center;
         height: auto;
@@ -459,7 +462,7 @@
     }
     
     .testimony__course {
-        background-color: goldenrod;
+        background-color: #F2E638;
         color: #fff;
         display: inline-block;
         padding: 5px;
@@ -481,8 +484,8 @@
     
     .step {
         padding-top: 150px;
-        font-family: 'Arial Narrow', sans-serif;
-        font-size: 7.5em;
+        font-family: 'Nunito', sans-serif;
+        font-size: 4.5em;
         font-weight: 100;
         line-height: 110px;
         margin-left: -8px;
@@ -505,8 +508,8 @@
     
     .step.is-active p {
         width: 100%;
-        background-color: goldenrod;
-        color: white;
+        background-color: #262626;
+        color: #B4D9D9;
     }
     
     .step p {
@@ -612,15 +615,15 @@
     .highcharts-data-table table {
         border-collapse: collapse;
         border-spacing: 0;
-        background: black;
-        width: 50%;
+        background: #F2EEB3;
+        width: 85%;
         margin-left: 100px;
-        font-family: sans-serif;
-        font-size: 15px;
+        font-family: Nunito;
+        font-size: 20px;
         justify-content: center;
         align-items: center;
         text-align: left;
-        color: #ffff
+        color: black
     }
     
     .highcharts-data-table td,
@@ -640,8 +643,8 @@
     
     .highcharts-data-table tr:nth-child(even),
     .highcharts-data-table thead tr {
-        background: goldenrod;
-        color: #ffff !important;
+        background: #F2EEB3;
+        color: black !important;
     }
     
     .highcharts-data-table tr:hover {
@@ -652,7 +655,7 @@
         border-bottom: none;
         font-size: 1.3em;
         font-weight: bold;
-        color: #ffff !important;
+        color: black !important;
         text-align: center;
     }
     
@@ -662,20 +665,22 @@
         grid-template-rows: 1fr;
         grid-column-gap: 13px;
         grid-row-gap: 5px;
-        margin: 0 75px 0 75px;
-        justify-content: center;
+        margin: 0 0 0 0;
+        padding-left: 50px;
         align-items: center;
         text-align: justify;
+        max-width: 100%;
     }
     
     .div1-22 {
         grid-area: 1 / 2 / 1 / 2;
-        padding: 50px;
-        color: black;
-        text-align: justify;
+        padding: 10px;
+        color: white;
+        background-color: #D9CE36;
         text-decoration: none;
-        border-top: 2px solid #EEAD33;
-        border-bottom: 2px solid #EEAD33;
+        font-family: Zilla Slab Highlight;
+        /*border-top: 2px solid #EEAD33;
+        border-bottom: 2px solid #EEAD33;*/
         font-size: 50px;
         font-weight: 700;
     }
@@ -683,7 +688,7 @@
     .div2-12 {
         grid-area: 2 / 1 / 1 / 1;
         padding: 50px;
-        color: #EEAD33;
+        color: #262626;
         font-weight: 400;
         text-align: center;
         text-decoration: none;

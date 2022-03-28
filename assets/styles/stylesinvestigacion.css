@@ -225,7 +225,8 @@ footer p {
     text-align: center;
     text-decoration-line: none;
     text-decoration-color: white;
-    line-height: 100px;
+    line-height: 50px;
+    font-size: 25px;
 }
 
 .opciones {
@@ -273,6 +274,7 @@ footer p {
 .introtext {
     max-width: 700px;
     font-size: 30px;
+    font-family: Zilla Slab Highlight;
 }
 
 .title {
@@ -310,7 +312,7 @@ footer p {
     width: 100%;
     height: 1000px;
     margin: 20px;
-    outline: 3px solid GOLDENROD;
+    outline: 3px solid#D9CE36;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr;
@@ -340,7 +342,7 @@ footer p {
     justify-self: center;
     padding-left: 30px;
     padding-right: 30px;
-    color: goldenrod;
+    color: D9CE36;
 }
 
 .grid_item3 {
@@ -350,7 +352,7 @@ footer p {
 
 .grid_item4 {
     grid-column: 3/-1;
-    background-color: goldenrod;
+    background-color: #D9CE36;
     text-align: center;
     line-height: 50px;
     text-transform: uppercase;
@@ -495,7 +497,7 @@ main {
 }
 
 .testimony__course {
-    background-color: goldenrod;
+    background-color: #D9CE36;
     color: #fff;
     display: inline-block;
     padding: 5px;
@@ -537,21 +539,23 @@ body {
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
     padding: 50px;
-    color: #fff;
+    color: #308C83;
     font-weight: 400;
-    text-align: center;
+    background-color: white;
+    ;
     text-decoration: none;
     font-size: xx-large;
+    font-family: Zilla Slab Highlight;
 }
 
 .div2 {
     grid-area: 1 / 2 / 2 / 3;
     padding: 50px;
-    color: #fff;
-    text-align: justify;
+    color: #59594F;
+    background-color: white;
     text-decoration: none;
-    border-top: 2px solid #EEAD33;
-    border-bottom: 2px solid #EEAD33;
+    border-top: 2px solid #D9CE36;
+    border-bottom: 2px solid #D9CE36;
     font-size: medium;
 }
 
@@ -587,22 +591,24 @@ body {
 .div1-2 {
     grid-area: 1 / 2 / 1 / 2;
     padding: 50px;
-    color: #fff;
+    color: #686326;
     text-align: justify;
     text-decoration: none;
-    border-top: 2px solid #EEAD33;
-    border-bottom: 2px solid #EEAD33;
+    border-top: 2px solid #308C83;
+    border-bottom: 2px solid #308C83;
     font-size: medium;
+    font-family: Zilla Slab Highlight
 }
 
 .div2-1 {
     grid-area: 2 / 1 / 1 / 1;
     padding: 50px;
-    color: #fff;
-    font-weight: 400;
+    color: #308C83;
+    background-color: white;
     text-align: center;
     text-decoration: none;
     font-size: xx-large;
+    font-family: Zilla Slab Highlight
 }
 
 .fuente {
@@ -654,7 +660,7 @@ path {
 
 .highcharts-data-table tr:nth-child(even),
 .highcharts-data-table thead tr {
-    background: goldenrod;
+    background: #D9CE36;
 }
 
 .highcharts-data-table tr:hover {
