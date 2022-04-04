@@ -126,14 +126,14 @@ Highcharts.chart('expertise1', {
 
     tooltip: {
         valueSuffix: '%',
-        backgroundColor: '#daa520',
+        backgroundColor: '#262626',
         borderColor: 'black',
         borderRadius: 10,
         borderWidth: 3,
         style: {
             color: 'white',
 
-            fontSize: '1.5em',
+            fontSize: '25px',
             fontFamily: "Nunito",
         }
     },

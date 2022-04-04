@@ -130,7 +130,7 @@ Highcharts.chart('containercomparacion', {
         style: {
             color: 'white',
 
-            fontSize: '1.5em',
+            fontSize: '25px',
             fontFamily: "Nunito",
         }
     },

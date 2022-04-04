@@ -221,22 +221,27 @@ footer p {
     }*/
 
 .menusecciones {
-    background: goldenrod;
-    text-align: center;
+    background: #3b3b3b;
+    width: 95%;
+    margin-left: 65px;
     text-decoration-line: none;
     text-decoration-color: white;
     line-height: 50px;
     font-size: 25px;
+    display: flex;
 }
 
 .opciones {
     text-align: center;
     text-decoration-line: none;
     text-decoration-color: white;
-    font-size: 20px;
-    padding-left: 10px;
+    font-size: 25px;
+    padding-left: 70px;
     padding-right: 20px;
     font-weight: bolder;
+    align-content: center;
+    color: white;
+    font-family: Nunito;
 }
 
 
@@ -497,7 +502,7 @@ main {
 }
 
 .testimony__course {
-    background-color: #D9CE36;
+    background-color: #59594F;
     color: #fff;
     display: inline-block;
     padding: 5px;
@@ -539,13 +544,13 @@ body {
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
     padding: 50px;
-    color: #308C83;
+    color: #59594F;
     font-weight: 400;
-    background-color: white;
-    ;
+    background-color: #D9CE36;
     text-decoration: none;
     font-size: xx-large;
     font-family: Zilla Slab Highlight;
+    margin-top: 0;
 }
 
 .div2 {
@@ -557,6 +562,8 @@ body {
     border-top: 2px solid #D9CE36;
     border-bottom: 2px solid #D9CE36;
     font-size: medium;
+    justify-content: center;
+    align-items: center;
 }
 
 .parent3 {
@@ -603,8 +610,8 @@ body {
 .div2-1 {
     grid-area: 2 / 1 / 1 / 1;
     padding: 50px;
-    color: #308C83;
-    background-color: white;
+    color: #686326;
+    background-color: #308C83;
     text-align: center;
     text-decoration: none;
     font-size: xx-large;

@@ -37,9 +37,9 @@ Highcharts.chart('containerevolucion', {
     },
 
     tooltip: {
-        backgroundColor: '#88524D',
+        backgroundColor: '#3b3b3b',
         opacity: 0.8,
-        borderColor: '#611111',
+        borderColor: '#3b3b3b',
         borderRadius: 10,
         borderWidth: 3,
         style: {
