@@ -1,5 +1,5 @@
 const containerDiv1 = document.getElementById("vizContainer1");
-const url = 'https://public.tableau.com/views/VersionfinalgraficasBD/DASHHCO?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url = 'https://public.tableau.com/views/VersionfinalgraficasBD/Dashboard4?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
 const options = {
     hideTabs: true,
 }

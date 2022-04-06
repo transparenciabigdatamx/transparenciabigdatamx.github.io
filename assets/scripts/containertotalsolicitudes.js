@@ -122,71 +122,96 @@ Highcharts.chart('containertotalsolicitudes', {
         name: "Dependencias top 10",
         colorByPoint: false,
         data: [{
-            name: "2003",
-            y: 22573,
-            color: '#daa520',
-            drilldown: "2003"
-        }, {
-            name: "2004",
-            y: 34216,
-            color: '#daa520',
-            drilldown: "2004"
-        }, {
-            name: "2005",
-            y: 43391,
-            color: '#daa520',
-            drilldown: "2005"
-        }, {
-            name: "2006",
-            y: 50757,
-            color: '#daa520',
-            drilldown: "2006"
-        }, {
-            name: "2007",
-            y: 78364,
-            color: '#daa520',
-            drilldown: "2007"
-        }, {
-            name: "2008",
-            y: 85604,
-            color: '#daa520',
-            drilldown: "2008"
-        }, {
-            name: "2009",
-            y: 97486,
-            color: '#daa520',
-            drilldown: "2009"
-        }, {
-            name: "2010",
-            y: 99713,
-            color: '#daa520',
-            drilldown: "2010"
-        }, {
-            name: "2011",
-            y: 96073,
-            color: '#daa520',
-            drilldown: "2011"
-        }, {
-            name: "2012",
-            y: 94600,
-            color: '#daa520',
-            drilldown: "2012"
-        }, {
-            name: "2013",
-            y: 109445,
-            color: '#daa520',
-            drilldown: "2013"
-        }, {
-            name: "2014",
-            y: 116078,
-            color: '#daa520',
-            drilldown: "2014"
-        }, {
-            name: "2015",
-            y: 83452,
-            color: '#daa520',
-            drilldown: "2015"
-        }]
+                name: "2003",
+                y: 22573,
+                color: '#daa520',
+                drilldown: "2003"
+            }, {
+                name: "2004",
+                y: 34216,
+                color: '#daa520',
+                drilldown: "2004"
+            }, {
+                name: "2005",
+                y: 43391,
+                color: '#daa520',
+                drilldown: "2005"
+            }, {
+                name: "2006",
+                y: 50757,
+                color: '#daa520',
+                drilldown: "2006"
+            }, {
+                name: "2007",
+                y: 78364,
+                color: '#daa520',
+                drilldown: "2007"
+            }, {
+                name: "2008",
+                y: 85604,
+                color: '#daa520',
+                drilldown: "2008"
+            }, {
+                name: "2009",
+                y: 97486,
+                color: '#daa520',
+                drilldown: "2009"
+            }, {
+                name: "2010",
+                y: 99713,
+                color: '#daa520',
+                drilldown: "2010"
+            }, {
+                name: "2011",
+                y: 96073,
+                color: '#daa520',
+                drilldown: "2011"
+            }, {
+                name: "2012",
+                y: 94600,
+                color: '#daa520',
+                drilldown: "2012"
+            }, {
+                name: "2013",
+                y: 109445,
+                color: '#daa520',
+                drilldown: "2013"
+            }, {
+                name: "2014",
+                y: 116078,
+                color: '#daa520',
+                drilldown: "2014"
+            },
+            {
+                name: "2015",
+                y: 116078,
+                color: '#daa520',
+                drilldown: "2015"
+            },
+            {
+                name: "2016",
+                y: 135501,
+                color: '#daa520',
+                drilldown: "2016"
+            },
+            {
+                name: "2017",
+                y: 184273,
+                color: '#daa520',
+                drilldown: "2017"
+            },
+            {
+                name: "2018",
+                y: 170963,
+                color: '#daa520',
+                drilldown: "2018"
+            }, {
+                name: "2019",
+                y: 214273,
+                color: '#daa520',
+                drilldown: "2019"
+            }
+        ]
     }],
     drilldown: {
         drillUpButton: {

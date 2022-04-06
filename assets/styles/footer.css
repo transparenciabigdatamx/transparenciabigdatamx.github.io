@@ -2,8 +2,10 @@
     padding-top: var(--spacer-m);
     padding-bottom: var(--spacer-m);
     font-size: var(--text-note);
-    text-align: center;
+    text-align: left;
+    font-family: 'Nunito', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
+    color: white;
 }
 
 .footer a {
