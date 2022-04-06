@@ -1,5 +1,5 @@
 const containerDiv7 = document.getElementById("vizContainer7");
-const url7 = 'https://public.tableau.com/views/RESUMENgraficas2/DashTiempopromedio2?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url7 = 'https://public.tableau.com/views/VersionfinalgraficasBD/DAHSTIME?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
 const options7 = {
     hideTabs: true,
 }

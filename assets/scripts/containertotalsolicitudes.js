@@ -1,6 +1,9 @@
 Highcharts.setOptions({
     lang: {
-        drillUpText: '<< De clic para REGRESAR a la gráfica de total anual de solicitudes'
+        drillUpText: '<< De clic para REGRESAR a la gráfica de total anual de solicitudes',
+
+
+
     }
 });
 Highcharts.chart('containertotalsolicitudes', {
@@ -28,38 +31,51 @@ Highcharts.chart('containertotalsolicitudes', {
     },
     xAxis: {
         gridLineDashStyle: "Dot",
-        gridLineColor: "#CEC6B9",
-        lineColor: "#CEC6B9",
+        gridLineColor: "#46627f",
+        lineColor: "#46627f",
         minorGridLineColor: "#CEC6B9",
         minorGridLineColor: "#BDC3C7",
         tickColor: "#46627f",
         tickWidth: 1,
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
+        },
+
+
         style: {
             color: '#7c7c7cff',
             fontSize: '30px',
             fontFamily: 'Nunito',
-            fontWeight: 'bold',
-
-
-
+            fontWeight: 'bold'
         },
         type: 'category'
     },
     yAxis: {
         gridLineDashStyle: "Dot",
-        gridLineColor: "#CEC6B9",
-        lineColor: "#CEC6B9",
+        gridLineColor: "#46627f",
+        lineColor: "#46627f",
         minorGridLineColor: "#CEC6B9",
         minorGridLineColor: "#BDC3C7",
         tickColor: "#46627f",
         tickWidth: 1,
-        style: {
-            color: '#7c7c7cff',
-            fontSize: '30px',
-            fontFamily: 'Nunito'
+        lineColor: '#262626',
+        lineWidth: 1,
+        labels: {
+            style: {
+                color: '#262626',
+                fontSize: '1.5em',
+                fontFamily: 'Nunito',
+                fontWeight: 'bold',
+            },
         },
+
         title: {
-            text: 'Total de solicitudes 2003-2015'
+            text: 'Total de solicitudes 2003-2019'
         }
     },
     subtitle: {
@@ -98,7 +114,7 @@ Highcharts.chart('containertotalsolicitudes', {
         style: {
             color: 'white',
 
-            fontSize: '1.5em',
+            fontSize: '2.5em',
             fontFamily: "Nunito",
         }
     },
@@ -173,6 +189,29 @@ Highcharts.chart('containertotalsolicitudes', {
         }]
     }],
     drilldown: {
+        drillUpButton: {
+            relativeTo: 'spacingBox',
+            position: {
+                y: 0,
+                x: 0
+            },
+            theme: {
+                fill: 'blue',
+                'stroke-width': 1,
+                stroke: 'silver',
+                r: 0,
+                states: {
+                    hover: {
+                        fill: '#a4edba'
+                    },
+                    select: {
+                        stroke: '#039',
+                        fill: '#a4edba'
+                    }
+                }
+            }
+
+        },
         series: [{
                 name: "2003",
                 id: "2003",

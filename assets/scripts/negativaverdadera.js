@@ -1,5 +1,5 @@
 const containerDiv9 = document.getElementById("vizContainer9");
-const url9 = 'https://publhttps://public.tableau.com/views/Inex/Dashboard1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_linkic.tableau.com/views/RESUMENgraficas2/DashExperienciaC2?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url9 = 'https://public.tableau.com/views/NegBD/TiposNEG?:language=es-ES&:display_count=n&:origin=viz_share_link';
 const options9 = {
     hideTabs: true,
 }

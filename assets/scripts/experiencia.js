@@ -1,5 +1,5 @@
 const containerDiv3 = document.getElementById("vizContainer3");
-const url3 = 'https://public.tableau.com/views/RESUMENgraficas2/DashExperienciaC2?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
+const url3 = 'https://public.tableau.com/views/VersionfinalgraficasBD/DAHSEXPERT?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link';
 const options3 = {
     hideTabs: true,
 }
