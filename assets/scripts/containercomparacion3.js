@@ -156,7 +156,7 @@ Highcharts.chart('containercomparacion3', {
         label: {
             enabled: false
         },
-        name: 'Proporción de "Inexistencias<br> "Verdaderas"',
+        name: 'Proporción de "Inexistencias<br> "Parcial escondida"',
         data: [5.55,
             7.04,
             8.64,
@@ -207,7 +207,7 @@ Highcharts.chart('containercomparacion3', {
         label: {
             enabled: false
         },
-        name: 'Proporción de "Inexistencis<br> "parcial escondida"',
+        name: 'Proporción de "Inexistencias<br> "Verdaderas"',
         data: [3.47,
             4.34,
             5.57,
