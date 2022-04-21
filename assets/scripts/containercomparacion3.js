@@ -246,6 +246,7 @@ Highcharts.chart('containercomparacion3', {
                     itemStyle: {
                         color: 'white',
                         fontWeight: 'bold'
+
                     },
                     enabled: false,
                     showInLegend: false,

@@ -296,16 +296,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2005",
                 id: "2005",
                 data: [
-                    ["SHCP", 1925],
-                    ["SEP", 1255],
-                    ["SEMARNAT", 1258],
-                    ["IMSS", 1256],
-                    ["FUNCIÓN PÚBLICA", 1017],
-                    ["SEGOB", 933],
-                    ["PGR", 1016],
-                    ["SALUD", 817],
-                    ["SCT", 907],
-                    ["SAT", 1256],
+                    ["SHCP", 2007],
+                    ["SEP", 1894],
+                    ["SEMARNAT", 1766],
+                    ["IMSS", 1575],
+                    ["FUNCIÓN PÚBLICA", 1379],
+                    ["SEGOB", 1263],
+                    ["PGR", 1233],
+                    ["SALUD", 1228],
+                    ["SCT", 1189],
+                    ["SAT", 1127],
 
 
 
@@ -325,16 +325,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2006",
                 id: "2006",
                 data: [
-                    ["SHCP", 1925],
-                    ["SEP", 1255],
-                    ["SEMARNAT", 1258],
-                    ["IMSS", 1256],
-                    ["SALUD", 817],
-                    ["FUNCIÓN PÚBLICA", 1017],
-                    ["SAT", 907],
-                    ["SEGOB", 933],
-                    ["SCT", 907],
-                    ["PGR", 1016]
+                    ["SHCP", 2284],
+                    ["SEP", 2195],
+                    ["SEMARNAT", 1945],
+                    ["IMSS", 1862],
+                    ["SALUD", 1839],
+                    ["FUNCIÓN PÚBLICA", 1618],
+                    ["SAT", 1397],
+                    ["SEGOB", 1349],
+                    ["SCT", 1334],
+                    ["PGR", 1233]
                 ],
                 color: {
                     linearGradient: [0, 0, 0, 1000],
@@ -351,16 +351,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2007",
                 id: "2007",
                 data: [
-                    ["IMSS", 1256],
-                    ["SEP", 1255],
-                    ["SALUD", 817],
-                    ["SHCP", 1925],
-                    ["SEMARNAT", 1258],
-                    ["SCT", 907],
-                    ["FUNCIÓN PÚBLICA", 1017],
-                    ["PGR", 1016],
-                    ["SEGOB", 933],
-                    ["SEDESOL", 931],
+                    ["IMSS", 6242],
+                    ["SEP", 5202],
+                    ["SALUD", 2685],
+                    ["SHCP", 2649],
+                    ["SEMARNAT", 2521],
+                    ["SCT", 2127],
+                    ["FUNCIÓN PÚBLICA", 2117],
+                    ["PGR", 1918],
+                    ["SEGOB", 1813],
+                    ["SEDESOL", 1788],
 
 
 
@@ -381,16 +381,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2008",
                 id: "2008",
                 data: [
-                    ["IMSS", 1256],
-                    ["SEP", 1255],
-                    ["SALUD", 817],
-                    ["SEMARNAT", 1258],
-                    ["FUNCIÓN PÚBLICA", 1017],
-                    ["SCT", 907],
-                    ["SHCP", 1925],
-                    ["ISSSTE", 931],
-                    ["SEGOB", 933],
-                    ["PGR", 1016],
+                    ["IMSS", 8282],
+                    ["SEP", 4177],
+                    ["SALUD", 3120],
+                    ["SEMARNAT", 2977],
+                    ["FUNCIÓN PÚBLICA", 2799],
+                    ["SCT", 2605],
+                    ["SHCP", 2567],
+                    ["ISSSTE", 2310],
+                    ["SEGOB", 2135],
+                    ["PGR", 1859],
 
                 ],
                 color: {
@@ -408,16 +408,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2009",
                 id: "2009",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SCT", 1256],
-                    ["SEMARNAT", 1255],
-                    ["SALUD", 1017],
-                    ["SHCP", 1016],
-                    ["ISSSTE", 933],
-                    ["FUNCIÓN PÚBLICA", 931],
-                    ["SEGOB", 907],
-                    ["PGR", 817],
+                    ["IMSS", 9962],
+                    ["SEP", 4957],
+                    ["SCT", 3371],
+                    ["SEMARNAT", 3232],
+                    ["SALUD", 3195],
+                    ["SHCP", 3053],
+                    ["ISSSTE", 3034],
+                    ["FUNCIÓN PÚBLICA", 2507],
+                    ["SEGOB", 2385],
+                    ["PGR", 2115],
 
 
                 ],
@@ -436,16 +436,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2010",
                 id: "2010",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SALUD", 1256],
-                    ["SCT", 1255],
-                    ["SEMARNAT", 1017],
-                    ["SHCP", 1016],
-                    ["FUNCIÓN PÚBLICA", 933],
-                    ["ISSSTE", 931],
-                    ["CFE", 907],
-                    ["CONAGUA", 817],
+                    ["IMSS", 9429],
+                    ["SEP", 4721],
+                    ["SALUD", 3810],
+                    ["SCT", 3397],
+                    ["SEMARNAT", 3240],
+                    ["SHCP", 2918],
+                    ["FUNCIÓN PÚBLICA", 2830],
+                    ["ISSSTE", 2756],
+                    ["CFE", 2425],
+                    ["CONAGUA", 2414],
 
 
                 ],
@@ -464,16 +464,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2011",
                 id: "2011",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SALUS", 1256],
-                    ["SHCP", 1255],
-                    ["SCT", 1017],
-                    ["SEMARNAT", 1016],
-                    ["FUNCIÓN PÚBLICA", 933],
-                    ["ISSSTE", 931],
-                    ["PGR", 907],
-                    ["SEGOB", 817],
+                    ["IMSS", 9161],
+                    ["SEP", 4384],
+                    ["SALUS", 3890],
+                    ["SHCP", 3242],
+                    ["SCT", 3185],
+                    ["SEMARNAT", 3153],
+                    ["FUNCIÓN PÚBLICA", 2996],
+                    ["ISSSTE", 2961],
+                    ["PGR", 2334],
+                    ["SEGOB", 2252],
 
 
                 ],
@@ -492,16 +492,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2012",
                 id: "2012",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SALUD", 1256],
-                    ["SEMARNAT", 1255],
-                    ["SHCP", 1016],
-                    ["FUNCIÓN PÚBLICA", 1017],
-                    ["SCT", 1016],
-                    ["ISSSTE", 933],
-                    ["CFE", 931],
-                    ["PGR", 907],
+                    ["IMSS", 7530],
+                    ["SEP", 4607],
+                    ["SALUD", 3712],
+                    ["SEMARNAT", 3081],
+                    ["SHCP", 2940],
+                    ["FUNCIÓN PÚBLICA", 2707],
+                    ["SCT", 2668],
+                    ["ISSSTE", 2665],
+                    ["CFE", 2445],
+                    ["PGR", 2384],
 
                 ],
                 color: {
@@ -519,16 +519,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2013",
                 id: "2013",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SALUD", 1256],
-                    ["SEMARNAT", 1255],
-                    ["ISSSTE", 1017],
-                    ["SHCP", 1016],
-                    ["COFEPRIS", 933],
-                    ["SEGOB", 931],
-                    ["PGR", 907],
-                    ["FUNCIÓN PÚBLICA", 817],
+                    ["IMSS", 10603],
+                    ["SEP", 4632],
+                    ["SALUD", 3661],
+                    ["SEMARNAT", 3433],
+                    ["ISSSTE", 3260],
+                    ["SHCP", 3208],
+                    ["COFEPRIS", 3147],
+                    ["SEGOB", 3060],
+                    ["PGR", 2617],
+                    ["FUNCIÓN PÚBLICA", 2590],
 
 
                 ],
@@ -547,16 +547,16 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2014",
                 id: "2014",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["ISSSTE", 1256],
-                    ["SEMARNAT", 1255],
-                    ["SALUD", 817],
-                    ["SEGOB", 933],
-                    ["COFEPRIS", 1017],
-                    ["SCT", 1016],
-                    ["PGR", 931],
-                    ["SHCP", 907],
+                    ["IMSS", 9602],
+                    ["SEP", 5777],
+                    ["ISSSTE", 4261],
+                    ["SEMARNAT", 4039],
+                    ["SALUD", 3980],
+                    ["SEGOB", 3578],
+                    ["COFEPRIS", 3372],
+                    ["SCT", 3146],
+                    ["PGR", 3070],
+                    ["SHCP", 3018],
 
 
 
@@ -576,16 +576,133 @@ Highcharts.chart('containertotalsolicitudes', {
                 name: "2015",
                 id: "2015",
                 data: [
-                    ["IMSS", 1925],
-                    ["SEP", 1258],
-                    ["SALUD", 1256],
-                    ["ISSSTE", 1255],
-                    ["PGR", 1017],
+                    ["IMSS", 8609],
+                    ["SEP", 6422],
+                    ["ISSSTE", 4189],
+                    ["SEMARNAT", 3925],
+                    ["SALUD", 5096],
+                    ["SEGOB", 4002],
+                    ["COFEPRIS", 3240],
+                    ["SCT", 3455],
+                    ["PGR", 4216],
+                    ["SHCP", 3225],
+
+
+
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
+                name: "2016",
+                id: "2016",
+                data: [
+                    ["IMSS", 9232],
+                    ["SEP", 6305],
+                    ["ISSSTE", 3502],
+                    ["SEMARNAT", 4460],
+                    ["SALUD", 3868],
+                    ["SEGOB", 3643],
+                    ["COFEPRIS", 6858],
+                    ["SCT", 3770],
+                    ["PGR", 3399],
+                    ["SHCP", 3424],
+
+
+
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
+                name: "2017",
+                id: "2017",
+                data: [
+                    ["IMSS", 9931],
+                    ["IPN", 7091],
+                    ["SEP", 6076],
+                    ["CONAGUA", 5458],
+                    ["SALUD", 4143],
+                    ["ISSSTE", 4011],
                     ["SEGOB", 1016],
-                    ["SEMARNAT", 933],
-                    ["SCT", 931],
-                    ["COFEPRIS", 907],
-                    ["FUNCIÓN PÚBLICA", 817],
+                    ["SEMARNAT", 4826],
+                    ["SCT", 3692],
+                    ["COFEPRIS", 12421],
+                    ["FUNCIÓN PÚBLICA", 4533],
+
+
+
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
+                name: "2018",
+                id: "2018",
+                data: [
+                    ["IMSS", 11077],
+                    ["SEP", 7320],
+                    ["SALUD", 9036],
+                    ["ISSSTE", 3966],
+                    ["SAGARPA", 3549],
+                    ["SEGOB", 1016],
+                    ["SEMARNAT", 5057],
+                    ["SCT", 3519],
+                    ["COFEPRIS", 10644],
+                    ["CONAGUA", 3343],
+
+
+
+                ],
+                color: {
+                    linearGradient: [0, 0, 0, 1000],
+                    stops: [
+                        [100, 'rgb(68, 1, 84)'],
+                        [500, 'rgb(94, 201, 98)'],
+                        [1000, 'rgb(33, 145, 140)'],
+                        [1500, 'rgb(59, 82, 139)'],
+                        [10000, 'rgb(68, 1, 84)'],
+                    ]
+                }
+            },
+            {
+                name: "2019",
+                id: "2019",
+                data: [
+                    ["IMSS", 11808],
+                    ["CFE", 11743],
+                    ["SEP", 6228],
+                    ["SHCP", 5579],
+                    ["SEMARNAT", 5277],
+                    ["CONAGUA", 1016],
+                    ["ISSSTE", 5149],
+                    ["SALUD", 5120],
+                    ["SCT", 5120],
+                    ["PGR", 4657],
 
 
                 ],
